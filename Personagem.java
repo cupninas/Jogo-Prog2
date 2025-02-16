@@ -1,6 +1,6 @@
 package Jogo;
 
-public class Character {
+public class Personagem {
 	private String nome;
 	private int vida;
 	private int ataque;
@@ -8,7 +8,7 @@ public class Character {
 	private int destreza;
 	private int velocidade;
 	
-	public Character(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
+	public Personagem(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
 		this.nome = nome;
 		this.vida = vida;
 		this.ataque = ataque;
