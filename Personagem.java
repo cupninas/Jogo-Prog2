@@ -1,13 +1,18 @@
 package Jogo;
 
-public class Personagem {
-	private String nome;
-	private int vida;
-	private int ataque;
-	private int defesa;
-	private int destreza;
-	private int velocidade;
-	
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public abstract class Personagem {
+	protected String nome;
+	protected int vida;
+	protected int ataque;
+	protected int defesa;
+	protected int destreza;
+	protected int velocidade;
+
 	public Personagem(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
 		this.nome = nome;
 		this.vida = vida;
@@ -16,56 +21,12 @@ public class Personagem {
 		this.destreza = destreza;
 		this.velocidade = velocidade;
 	}
-	
-	public String getNome() {
-		return nome;
-	}
-	
-	 public void setNome(String nome) {
-		 this.nome = nome;
-	 }
 
-	public int getVida() {
-		return vida;
+	protected abstract void realizarAtaque();
+	public void sofrerDano(int dano) {
+		this.vida -= dano;
 	}
-
-	public void setVida(int vida) {
-		this.vida = vida;
+	public boolean estaVivo() {
+		return this.vida > 0;
 	}
-
-	public int getAtaque() {
-		return ataque;
-	}
-
-	public void setAtaque(int ataque) {
-		this.ataque = ataque;
-	}
-
-	public int getDefesa() {
-		return defesa;
-	}
-
-	public void setDefesa(int defesa) {
-		this.defesa = defesa;
-	}
-
-	public int getDestreza() {
-		return destreza;
-	}
-
-	public void setDestreza(int destreza) {
-		this.destreza = destreza;
-	}
-
-	public int getVelocidade() {
-		return velocidade;
-	}
-
-	public void setVelocidade(int velocidade) {
-		this.velocidade = velocidade;
-	}
-	 
-	 public void realizarAtaque() {
-		 
-	 }
 }
