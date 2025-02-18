@@ -1,5 +1,7 @@
 package Jogo;
 
+import tiposHeroi.Classe;
+
 public class Heroi extends Personagem {
 	private Classe classe;
 	
