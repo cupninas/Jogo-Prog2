@@ -1,6 +1,6 @@
 package Jogo;
 
-import Jogo.Herois.Heroi;
+import Jogo.Herois.*;
 import Jogo.Monstros.DomingoANoite;
 import Jogo.Monstros.LeaoReceitaFederal;
 import Jogo.Monstros.Monstro;
@@ -40,9 +40,12 @@ public class Jogo {
 
     private Heroi gerarHeroiAleatorio() throws Exception {
         Random random = new Random();
-        int escolha = random.nextInt(3);
+        int escolha = random.nextInt(4);
         return switch (escolha) {
-            case 0 -> new Heroi();
+            case 0 -> new Arqueiro();
+            case 1 -> new Guerreiro();
+            case 2 -> new Ladino();
+            case 3 -> new Mago();
             default -> throw new Exception();
         };
     }

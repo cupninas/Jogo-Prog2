@@ -1,5 +1,6 @@
 package Jogo.Monstros;
 
+import Jogo.Herois.Heroi;
 import Jogo.Personagem;
 
 public abstract class Monstro extends Personagem {
@@ -7,11 +8,8 @@ public abstract class Monstro extends Personagem {
         super(nome, vida, ataque, defesa, destreza, velocidade);
     }
 
-    @Override
-    protected void realizarAtaque() {
-    }
+    protected abstract void realizarAcao(Heroi heroi);
 
     public abstract void sofrerDano();
-
 
 }
