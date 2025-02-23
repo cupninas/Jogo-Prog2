@@ -33,7 +33,7 @@ public class Guerreiro extends Heroi {
     //--------------------- Factories --------------------
 
     @Override
-    protected void realizarAcao(Monstro monstro) throws Exception {
+    public void realizarAcao(Monstro monstro) throws Exception {
         // TODO - colocar uma tentativa de realizar acao.
         int escolha = RANDOM.nextInt(6);
         switch (escolha) {

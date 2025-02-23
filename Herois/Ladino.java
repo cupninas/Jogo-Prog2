@@ -25,7 +25,7 @@ public class Ladino extends Heroi {
 
 	// Construtor com valores padrão de um Ladino típico
 	public Ladino() {
-		super("Guerreiro", 300, 20, 8, 4, TipoHeroi.LADINO);
+		super("Ladino", 300, 20, 8, 4, TipoHeroi.LADINO);
 
 		List<TipoArma> armasLadino = TipoArma.obterArmasParaLadino();
 		this.armaPrincipal = armasLadino.get(RANDOM.nextInt(armasLadino.size()));
@@ -39,7 +39,7 @@ public class Ladino extends Heroi {
 	//--------------------- Factories --------------------
 
 	@Override
-	protected void realizarAcao(Monstro monstro) throws Exception {
+	public void realizarAcao(Monstro monstro) throws Exception {
 		//a flecha carregada tem influencia aqui, quando esta ativada tem mais chance da acao acontecer
 		//TODO - realizar algum dos ataques de forma randomica
 		Random random = new Random();

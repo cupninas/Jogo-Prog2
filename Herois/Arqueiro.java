@@ -36,7 +36,7 @@ public class Arqueiro extends Heroi {
 	//--------------------- Factories --------------------
 
 	@Override
-	protected void realizarAcao(Monstro monstro) throws Exception {
+	public void realizarAcao(Monstro monstro) throws Exception {
 		//a flecha carregada tem influencia aqui, quando esta ativada tem mais chance da acao acontecer
 		//TODO - realizar algum dos ataques de forma randomica
 		Random random = new Random();
