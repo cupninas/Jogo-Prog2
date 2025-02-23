@@ -55,9 +55,7 @@ public class Ladino extends Heroi {
 	}
 
 	@Override
-	public void sofrerDano(int dano) {
-
-	}
+	public void sofrerDano(int dano) {}
 
 	@Override
 	public void comecarNovoTurno() { desativarFurtividade(); }
