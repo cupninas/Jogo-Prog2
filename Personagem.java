@@ -3,9 +3,14 @@ package Jogo;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Random;
+
 @Getter
 @Setter
 public abstract class Personagem {
+
+	protected static final Random RANDOM = new Random();
+
 	protected String nome;
 	protected int vida;
 	protected int ataque;

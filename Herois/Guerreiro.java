@@ -3,22 +3,31 @@ package Jogo.Herois;
 import Jogo.Monstros.Monstro;
 import Jogo.enums.TipoArma;
 import Jogo.enums.TipoHeroi;
-import Jogo.enums.TipoMonstro;
 
-import java.util.Random;
+import java.util.List;
 
 public class Guerreiro extends Heroi {
 
     // Construtor principal com todos os atributos
-    public Guerreiro(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
-        // TODO - irei fazer uns gets armas especificas para cada heroi aqui
-        super(nome, vida, ataque, defesa, destreza, velocidade, TipoHeroi.GUERREIRO, TipoArma.ESPADA_CURTA);
+    public Guerreiro(String nome, int vida, int defesa, int destreza, int velocidade) {
+        super(nome, vida, defesa, destreza, velocidade, TipoHeroi.GUERREIRO);
+
+        List<TipoArma> armasGuerreiro = TipoArma.obterArmasParaGuerreiro();
+        TipoArma armaGuerreiro = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
+
+        this.ataque = TipoHeroi.GUERREIRO.getAtaque()+armaGuerreiro.getAtaque();
+        this.armaPrincipal = armaGuerreiro;
     }
 
     // Construtor com valores padrão de um Guerreiro típico
     public Guerreiro() {
-        // TODO - irei fazer uns gets armas especificas para cada heroi aqui
-        super("Guerreiro", 300, TipoHeroi.GUERREIRO.getAtaque()+TipoArma.ESPADA_CURTA.getAtaque(), 20, 8, 4, TipoHeroi.GUERREIRO, TipoArma.ESPADA_CURTA);
+        super("Guerreiro", 300, 20, 8, 4, TipoHeroi.GUERREIRO);
+
+        List<TipoArma> armasGuerreiro = TipoArma.obterArmasParaGuerreiro();
+        TipoArma armaGuerreiro = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
+
+        this.ataque = TipoHeroi.GUERREIRO.getAtaque()+armaGuerreiro.getAtaque();
+        this.armaPrincipal = armaGuerreiro;
     }
 
     //--------------------- Atributos escudos --------------------
@@ -30,8 +39,7 @@ public class Guerreiro extends Heroi {
     @Override
     protected void realizarAcao(Monstro monstro) throws Exception {
         // TODO - colocar uma tentativa de realizar acao.
-        Random random = new Random();
-        int escolha = random.nextInt(6);
+        int escolha = RANDOM.nextInt(6);
         switch (escolha) {
             case 0 -> ativarFuria();
             case 1 -> golpeDemolidor(monstro);

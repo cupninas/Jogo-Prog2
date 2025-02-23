@@ -13,10 +13,9 @@ public abstract class Heroi extends Personagem {
 	@Setter
     private boolean paralisado = false;
 
-	public Heroi(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoHeroi classe, TipoArma armaPrincipal) {
-		super(nome, vida, ataque, defesa, destreza, velocidade);
+	public Heroi(String nome, int vida, int defesa, int destreza, int velocidade, TipoHeroi classe) {
+		super(nome, vida, 0, defesa, destreza, velocidade);
 		this.classe = classe;
-		this.armaPrincipal = armaPrincipal;
     }
 
 	protected abstract void realizarAcao(Monstro monstro) throws Exception;

@@ -4,18 +4,30 @@ import Jogo.Monstros.Monstro;
 import Jogo.enums.TipoArma;
 import Jogo.enums.TipoHeroi;
 
+import java.util.List;
 import java.util.Random;
 
 public class Arqueiro extends Heroi {
 
 	public Arqueiro(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoArma armaPrincipal) {
 		// TODO - irei fazer uns gets armas especificas para cada heroi aqui
-		super(nome, vida, ataque, defesa, destreza, velocidade, TipoHeroi.ARQUEIRO, armaPrincipal);
+		super(nome, vida, defesa, destreza, velocidade, TipoHeroi.ARQUEIRO);
+
+		List<TipoArma> armasArqueiro = TipoArma.obterArmasParaGuerreiro();
+		this.armaPrincipal = armasArqueiro.get(RANDOM.nextInt(armasArqueiro.size()));
+
+		this.ataque = TipoHeroi.ARQUEIRO.getAtaque()+this.armaPrincipal.getAtaque();
 	}
 
 	public Arqueiro() {
 		// TODO - irei fazer uns gets armas especificas para cada heroi aqui
-		super("Arqueiro", 200, 25, 10, 15, 7, TipoHeroi.ARQUEIRO, TipoArma.ESPADA_CURTA);
+		super("Arqueiro", 200, 25, 10, 15, TipoHeroi.ARQUEIRO);
+
+		List<TipoArma> armasGuerreiro = TipoArma.obterArmasParaGuerreiro();
+		TipoArma armaGuerreiro = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
+
+		this.ataque = TipoHeroi.ARQUEIRO.getAtaque()+armaGuerreiro.getAtaque();
+		this.armaPrincipal = armaGuerreiro;
 	}
 
 	//--------------------- Atributos escudos --------------------
