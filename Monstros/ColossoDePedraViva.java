@@ -37,12 +37,13 @@ public class ColossoDePedraViva extends Monstro{
 
     @Override
     public void sofrerDano(int dano) {
+
         double reducaoDano = 0.2;
         System.out.println(this.getNome() + " resiste ao impacto devido ao seu CORPO DE PEDRA!");
         // Reduz o dano recebido em 20%
         int danoRecebido = (int) (dano * (1 - reducaoDano));
-        this.setVida(this.getVida() - danoRecebido);
 
+        this.setVida(this.getVida() - danoRecebido);
         System.out.println(this.getNome() + " sofreu apenas " + danoRecebido + " de dano!");
         // TODO - Implementa uma tentativa de ação de sofrer dano - ivan
     }
