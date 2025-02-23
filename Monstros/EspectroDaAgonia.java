@@ -6,7 +6,6 @@ import Jogo.enums.TipoMonstro;
 import java.util.Random;
 
 public class EspectroDaAgonia extends Monstro {
-    private boolean intangivelAtivo = false;
 
     public EspectroDaAgonia(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
         super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.ESPECTRO_DA_AGONIA);
@@ -15,6 +14,12 @@ public class EspectroDaAgonia extends Monstro {
     public EspectroDaAgonia() {
         super("Arqueiro", 150, 20, 10, 10, 5, TipoMonstro.ESPECTRO_DA_AGONIA);
     }
+
+    //--------------------- Atributos escudos --------------------
+
+    private boolean intangivelAtivo = false;
+
+    //--------------------- Factories --------------------
 
     @Override
     public void realizarAcao(Heroi heroi) throws Exception {
@@ -49,6 +54,8 @@ public class EspectroDaAgonia extends Monstro {
     public void comecarNovoTurno() {
         desativarIntangibilidade();
     }
+
+    //--------------------- Ações de ataque --------------------
 
     /**
      *🕷️ O que a habilidade faz?
@@ -101,10 +108,14 @@ public class EspectroDaAgonia extends Monstro {
         heroi.sofrerDano(this.getAtaque());
     }
 
+    //--------------------- Ações de defesa --------------------
+
     private void ativarIntangibilidade() {
         System.out.println(this.getNome() + " se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.");
         this.intangivelAtivo = true;
     }
+
+    //--------------------- Desativações de escudo --------------------
 
     public void desativarIntangibilidade() {
         if (intangivelAtivo) {

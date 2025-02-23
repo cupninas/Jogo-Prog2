@@ -18,16 +18,23 @@ public class HidraDeSangue extends Monstro{
         this.vidaMaxima = 250;
     }
 
+    //--------------------- Atributos escudos --------------------
+
+    private boolean cabecasCortadasCrescendo;
+
+    //--------------------- Factories --------------------
+
     @Override
     public void realizarAcao(Heroi heroi) throws Exception {
         //TODO - realizar algum dos ataques de forma randomica - ivan
         Random random = new Random();
-        int escolha = random.nextInt(4);
+        int escolha = random.nextInt(5);
         switch (escolha) {
             case 0 -> morderMultiplo(heroi);
             case 1 -> regeneracaoSanguinea();
             case 2 -> cabecasRenascidas();
             case 3 -> ataqueNormal(heroi);
+            case 4 -> ativarRegeneracaoDeCabecas();
             default -> throw new Exception();
         };
     }
@@ -39,6 +46,13 @@ public class HidraDeSangue extends Monstro{
         //TODO - se nenhum dos atributos forem true, tenta executar a acao,
         this.vida -= dano;
     }
+
+    @Override
+    public void comecarNovoTurno() {
+        concluirRegeneracaoDeCabecas();
+    }
+
+    //--------------------- Ações de ataque --------------------
 
     private void morderMultiplo(Heroi heroi) {
         System.out.println(this.getNome() + " ataca com suas múltiplas cabeças!");
@@ -52,6 +66,13 @@ public class HidraDeSangue extends Monstro{
             System.out.println("Mordida #" + (i + 1) + ": " + heroi.getNome() + " recebeu " + dano + " de dano!");
         }
     }
+
+    private void ataqueNormal(Heroi heroi) {
+        System.out.println(this.getNome() + " lança uma investida feroz!");
+        heroi.sofrerDano(this.getAtaque());
+    }
+
+    //--------------------- Ações de defesa --------------------
 
     private void regeneracaoSanguinea() {
         int cura = (int) (this.vidaMaxima * 0.08); // Cura 8% da vida máxima
@@ -70,8 +91,25 @@ public class HidraDeSangue extends Monstro{
         // Poderia ganhar um buff temporário, como aumento de ataque ou defesa
     }
 
-    private void ataqueNormal(Heroi heroi) {
-        System.out.println(this.getNome() + " lança uma investida feroz!");
-        heroi.sofrerDano(this.getAtaque());
+    public void ativarRegeneracaoDeCabecas() {
+        if (!cabecasCortadasCrescendo) {
+            cabecasCortadasCrescendo = true;
+            System.out.println(this.getNome() + " começa a regenerar suas cabeças cortadas... Em breve ela estará ainda mais poderosa!");
+        } else {
+            System.out.println(this.getNome() + " já está regenerando suas cabeças!");
+        }
     }
+
+    //--------------------- Desativações de escudo --------------------
+
+    public void concluirRegeneracaoDeCabecas() {
+        if (cabecasCortadasCrescendo) {
+            cabecasCortadasCrescendo = false;
+            this.ataque += 5; // Com mais cabeças, o ataque aumenta
+            System.out.println(this.getNome() + " regenerou suas cabeças cortadas! Agora ficou ainda mais feroz!");
+        } else {
+            System.out.println(this.getNome() + " não tem cabeças cortadas para regenerar.");
+        }
+    }
+
 }
