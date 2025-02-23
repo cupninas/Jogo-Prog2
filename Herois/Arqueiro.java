@@ -4,9 +4,9 @@ import Jogo.Monstros.Monstro;
 import Jogo.enums.TipoArma;
 import Jogo.enums.TipoHeroi;
 
-public class Arqueiro extends Heroi {
+import java.util.Random;
 
-	private boolean flechaCarregada = false; // Estado para ataques carregados
+public class Arqueiro extends Heroi {
 
 	public Arqueiro(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoArma armaPrincipal) {
 		// TODO - irei fazer uns gets armas especificas para cada heroi aqui
@@ -18,14 +18,36 @@ public class Arqueiro extends Heroi {
 		super("Arqueiro", 200, 25, 10, 15, 7, TipoHeroi.ARQUEIRO, TipoArma.ESPADA_CURTA);
 	}
 
+	//--------------------- Atributos escudos --------------------
+
+	private boolean flechaCarregada = false; // Estado para ataques carregados
+
+	//--------------------- Factories --------------------
+
 	@Override
-	protected void realizarAcao(Monstro monstro) {
+	protected void realizarAcao(Monstro monstro) throws Exception {
 		//a flecha carregada tem influencia aqui, quando esta ativada tem mais chance da acao acontecer
+		//TODO - realizar algum dos ataques de forma randomica
+		Random random = new Random();
+		int escolha = random.nextInt(4);
+		switch (escolha) {
+			case 0 -> disparoComFlecha(monstro);
+			case 1 -> ataqueRapido(monstro);
+			case 2 -> carregarFlecha();
+			default -> throw new Exception();
+		};
 	}
 
 	@Override
 	public void sofrerDano(int dano) {
 	}
+
+	@Override
+	public void comecarNovoTurno() {
+		desativarFlechaCarregada();
+	}
+
+	//--------------------- Ações de ataque --------------------
 
 	private void disparoComFlecha(Monstro monstro) {
 		System.out.println(this.getNome() + " dispara uma flecha com sua " + armaPrincipal.getNome() + "!");
@@ -70,8 +92,21 @@ public class Arqueiro extends Heroi {
 		System.out.println(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
 	}
 
+	//--------------------- Ações de defesa --------------------
+
 	public void carregarFlecha() {
 		System.out.println(this.getNome() + " prepara uma flecha carregada para o próximo turno!");
 		flechaCarregada = true;
+	}
+
+	//--------------------- Desativações de escudo --------------------
+
+	public void desativarFlechaCarregada() {
+		if (flechaCarregada) {
+			flechaCarregada = false;
+			System.out.println(this.getNome() + " relaxa a tensão do arco e desfaz a Flecha Carregada.");
+		} else {
+			System.out.println(this.getNome() + " não estava com uma Flecha Carregada ativa.");
+		}
 	}
 }

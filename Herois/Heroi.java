@@ -19,7 +19,7 @@ public abstract class Heroi extends Personagem {
 		this.armaPrincipal = armaPrincipal;
     }
 
-	protected abstract void realizarAcao(Monstro monstro);
+	protected abstract void realizarAcao(Monstro monstro) throws Exception;
 
 	public abstract void sofrerDano(int dano);
 
