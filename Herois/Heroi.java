@@ -5,10 +5,15 @@ import Jogo.Monstros.Monstro;
 import Jogo.Personagem;
 import Jogo.enums.TipoArma;
 import Jogo.enums.TipoHeroi;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public abstract class Heroi extends Personagem {
 	private TipoArma armaPrincipal;
 	private TipoHeroi classe;
+	private boolean paralisado = false;
 
 	public Heroi(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoArma armaPrincipal, TipoHeroi classe) {
 		super(nome, vida, ataque, defesa, destreza, velocidade);
