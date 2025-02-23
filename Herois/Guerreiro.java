@@ -13,10 +13,8 @@ public class Guerreiro extends Heroi {
         super(nome, vida, defesa, destreza, velocidade, TipoHeroi.GUERREIRO);
 
         List<TipoArma> armasGuerreiro = TipoArma.obterArmasParaGuerreiro();
-        TipoArma armaGuerreiro = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
-
-        this.ataque = TipoHeroi.GUERREIRO.getAtaque()+armaGuerreiro.getAtaque();
-        this.armaPrincipal = armaGuerreiro;
+        this.armaPrincipal = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
+        this.ataque = TipoHeroi.GUERREIRO.getAtaque()+this.armaPrincipal.getAtaque();
     }
 
     // Construtor com valores padrão de um Guerreiro típico
@@ -24,10 +22,8 @@ public class Guerreiro extends Heroi {
         super("Guerreiro", 300, 20, 8, 4, TipoHeroi.GUERREIRO);
 
         List<TipoArma> armasGuerreiro = TipoArma.obterArmasParaGuerreiro();
-        TipoArma armaGuerreiro = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
-
-        this.ataque = TipoHeroi.GUERREIRO.getAtaque()+armaGuerreiro.getAtaque();
-        this.armaPrincipal = armaGuerreiro;
+        this.armaPrincipal = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
+        this.ataque = TipoHeroi.GUERREIRO.getAtaque()+this.armaPrincipal.getAtaque();
     }
 
     //--------------------- Atributos escudos --------------------

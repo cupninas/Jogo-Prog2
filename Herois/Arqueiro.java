@@ -15,7 +15,6 @@ public class Arqueiro extends Heroi {
 
 		List<TipoArma> armasArqueiro = TipoArma.obterArmasParaGuerreiro();
 		this.armaPrincipal = armasArqueiro.get(RANDOM.nextInt(armasArqueiro.size()));
-
 		this.ataque = TipoHeroi.ARQUEIRO.getAtaque()+this.armaPrincipal.getAtaque();
 	}
 
@@ -23,11 +22,9 @@ public class Arqueiro extends Heroi {
 		// TODO - irei fazer uns gets armas especificas para cada heroi aqui
 		super("Arqueiro", 200, 25, 10, 15, TipoHeroi.ARQUEIRO);
 
-		List<TipoArma> armasGuerreiro = TipoArma.obterArmasParaGuerreiro();
-		TipoArma armaGuerreiro = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
-
-		this.ataque = TipoHeroi.ARQUEIRO.getAtaque()+armaGuerreiro.getAtaque();
-		this.armaPrincipal = armaGuerreiro;
+		List<TipoArma> armasArqueiro = TipoArma.obterArmasParaGuerreiro();
+		this.armaPrincipal = armasArqueiro.get(RANDOM.nextInt(armasArqueiro.size()));
+		this.ataque = TipoHeroi.ARQUEIRO.getAtaque()+this.armaPrincipal.getAtaque();
 	}
 
 	//--------------------- Atributos escudos --------------------
