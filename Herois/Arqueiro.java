@@ -37,8 +37,7 @@ public class Arqueiro extends Heroi {
 
 	@Override
 	public void realizarAcao(Monstro monstro) throws Exception {
-		//a flecha carregada tem influencia aqui, quando esta ativada tem mais chance da acao acontecer
-		//TODO - realizar algum dos ataques de forma randomica
+		//TODO - a flecha carregada tem influencia aqui, quando esta ativada tem mais chance da acao acontecer. realizar algum dos ataques de forma randomica
 		Random random = new Random();
 		int escolha = random.nextInt(4);
 		switch (escolha) {
@@ -54,9 +53,7 @@ public class Arqueiro extends Heroi {
 	}
 
 	@Override
-	public void comecarNovoTurno() {
-		desativarFlechaCarregada();
-	}
+	public void comecarNovoTurno() { desativarFlechaCarregada(); }
 
 	//--------------------- Ações de ataque --------------------
 
