@@ -1,8 +1,7 @@
 package Jogo;
 
 import Jogo.Herois.*;
-import Jogo.Monstros.LeaoReceitaFederal;
-import Jogo.Monstros.Monstro;
+import Jogo.Monstros.*;
 import Jogo.enums.TipoDificuldade;
 
 import java.util.ArrayList;
@@ -29,10 +28,13 @@ public class Jogo {
 
     private Monstro gerarMonstroAleatorio() throws Exception {
         Random random = new Random();
-        int escolha = random.nextInt(3);
+        int escolha = random.nextInt(5);
         return switch (escolha) {
-            case 0 -> new DomingoANoite();
-            case 1 -> new LeaoReceitaFederal();
+            case 0 -> new AbominacaoDaCarne();
+            case 1 -> new CavaleiroDoVazio();
+            case 2 -> new ColossoDePedraViva();
+            case 3 -> new EspectroDaAgonia();
+            case 4 -> new HidraDeSangue();
             default -> throw new Exception();
         };
     }

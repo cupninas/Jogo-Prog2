@@ -4,14 +4,10 @@ import Jogo.Herois.Heroi;
 import Jogo.enums.TipoMonstro;
 
 public class EspectroDaAgonia extends Monstro {
-    private boolean intangivelAtivo;
+    private boolean intangivelAtivo = false;
 
     public EspectroDaAgonia(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
         super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.ESPECTRO_DA_AGONIA);
-    }
-
-    public EspectroDaAgonia(int stamina, int furia) {
-        super("Arqueiro", 150, 20, 10, 10, 5, TipoMonstro.ESPECTRO_DA_AGONIA);
     }
 
     public EspectroDaAgonia() {
@@ -20,12 +16,20 @@ public class EspectroDaAgonia extends Monstro {
 
     @Override
     protected void realizarAcao(Heroi heroi) {
-        //TODO - realizar algum dos ataques de forma randomica
+        //TODO - realizar algum dos ataques de forma randomica - ivan
     }
 
     @Override
-    public void sofrerDano() {
-        //TODO - verifica se os alguns dos atributos de "escudo" estao true, senao, tenta realizar o dano.
+    public void sofrerDano(int dano) {
+        //TODO - verifica se os alguns dos atributos de "escudo" estao true, senao, tenta realizar o dano. - ivan
+        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui - ivan
+        if (intangivelAtivo) {
+            System.out.println(nome + " se tornou etéreo e evitou completamente o ataque!");
+            intangivelAtivo = false;
+            return;
+        }
+        //TODO - se nenhum dos atributos forem true, tenta executar a acao, - ivan
+        this.vida -= dano;
     }
 
     /**
@@ -45,7 +49,7 @@ public class EspectroDaAgonia extends Monstro {
         heroi.setDefesa(heroi.getDefesa() - reducaoDefesa);
         System.out.println(heroi.getNome() + " teve sua defesa reduzida em " + reducaoDefesa + " pontos!");
 
-        // TODO: Criar um sistema para restaurar a defesa após um turno
+        // TODO: Criar um sistema para restaurar a defesa após um turno - ivan
     }
 
     /**

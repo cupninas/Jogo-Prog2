@@ -1,0 +1,75 @@
+package Jogo.Monstros;
+
+import Jogo.Herois.Heroi;
+import Jogo.enums.TipoMonstro;
+
+public class CavaleiroDoVazio extends Monstro{
+
+    private boolean vazioEternoAtivo = false; // Ativado quando a vida está baixa
+
+    public CavaleiroDoVazio(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
+        super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.CAVALEIRO_DO_VAZIO);
+    }
+
+    public CavaleiroDoVazio() {
+        super("Cavaleiro do Vazio", 280, 30, 25, 12, 6, TipoMonstro.CAVALEIRO_DO_VAZIO);
+    }
+
+    @Override
+    protected void realizarAcao(Heroi heroi) {
+        //TODO - realizar algum dos ataques de forma randomica
+    }
+
+    @Override
+    public void sofrerDano(int dano) {
+        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui - ivan
+        //aqui nao tem esses atributos escudos, nao precisa fazer a verificacao - ivan
+        //TODO - se nenhum dos atributos forem true, tenta executar a acao - ivan
+        this.vida -= dano;
+    }
+
+    private void laminaDoAbismo(Heroi heroi) {
+        System.out.println(this.getNome() + " invoca a LÂMINA DO ABISMO!");
+
+        // Causa 50% mais dano e ignora 20% da defesa do herói
+        int danoBase = this.getAtaque();
+        int defesaIgnorada = (int) (heroi.getDefesa() * 0.2);
+        int danoFinal = (danoBase + (danoBase / 2)) - defesaIgnorada;
+
+        if (danoFinal < 0) danoFinal = 0;
+        heroi.sofrerDano(danoFinal);
+
+        System.out.println(heroi.getNome() + " recebeu " + danoFinal + " de dano do abismo!");
+    }
+
+    private void ataqueSombrio(Heroi heroi) {
+        System.out.println(this.getNome() + " lança um ATAQUE SOMBRIO!");
+
+        int dano = this.getAtaque();
+        heroi.sofrerDano(dano);
+
+        // Cura 10% do dano causado
+        int cura = (int) (dano * 0.1);
+        this.setVida(this.getVida() + cura);
+
+        System.out.println(this.getNome() + " absorveu " + cura + " de vida com o ataque!");
+    }
+
+    private void defesaSombria() {
+        System.out.println(this.getNome() + " envolve-se em uma aura negra, aumentando sua defesa temporariamente!");
+
+        // Aumenta a defesa em 20% por um turno
+        int aumentoDefesa = (int) (this.getDefesa() * 0.2);
+        this.setDefesa(this.getDefesa() + aumentoDefesa);
+    }
+
+    private void vazioEterno() {
+        System.out.println(this.getNome() + " ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!");
+
+        vazioEternoAtivo = true;
+
+        // Reduz o dano recebido pela metade no próximo turno
+        // (Isso pode ser implementado em um método de receber dano)
+    }
+
+}

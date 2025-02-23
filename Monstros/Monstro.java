@@ -6,7 +6,7 @@ import Jogo.enums.TipoHeroi;
 import Jogo.enums.TipoMonstro;
 
 public abstract class Monstro extends Personagem {
-    private TipoMonstro classe;
+    protected TipoMonstro classe;
 
     public Monstro(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoMonstro classe) {
         super(nome, vida, ataque, defesa, destreza, velocidade);
@@ -15,6 +15,6 @@ public abstract class Monstro extends Personagem {
 
     protected abstract void realizarAcao(Heroi heroi);
 
-    public abstract void sofrerDano();
+    public abstract void sofrerDano(int dano);
 
 }
