@@ -17,7 +17,7 @@ public class EspectroDaAgonia extends Monstro {
     }
 
     @Override
-    protected void realizarAcao(Heroi heroi) throws Exception {
+    public void realizarAcao(Heroi heroi) throws Exception {
         //TODO - realizar algum dos ataques de forma randomica - ivan
         Random random = new Random();
         int escolha = random.nextInt(4);

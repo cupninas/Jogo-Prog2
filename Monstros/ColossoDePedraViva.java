@@ -6,8 +6,6 @@ import Jogo.enums.TipoMonstro;
 import java.util.Random;
 
 public class ColossoDePedraViva extends Monstro{
-    private boolean modoDefensivo = false; // Habilidade para aumentar defesa
-    private boolean enraizado = false;
 
     public ColossoDePedraViva(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
         super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.COLOSSO_DE_PEDRA_VIVA);
@@ -17,8 +15,15 @@ public class ColossoDePedraViva extends Monstro{
         super("Colosso de Pedra Viva", 400, 40, 35, 5, 3, TipoMonstro.COLOSSO_DE_PEDRA_VIVA);
     }
 
+    //--------------------- Atributos escudos --------------------
+
+    private boolean modoDefensivo = false; // Habilidade para aumentar defesa
+    private boolean enraizado = false;
+
+    //--------------------- Factories --------------------
+
     @Override
-    protected void realizarAcao(Heroi heroi) throws Exception {
+    public void realizarAcao(Heroi heroi) throws Exception {
         Random random = new Random();
         int escolha = random.nextInt(4);
         switch (escolha) {
@@ -48,6 +53,8 @@ public class ColossoDePedraViva extends Monstro{
         desativarModoDefensivo();
     }
 
+    //--------------------- Ações de ataque --------------------
+
     private void esmagamento(Heroi heroi) {
         System.out.println(this.getNome() + " desfere um golpe esmagador contra " + heroi.getNome() + "!");
 
@@ -62,11 +69,6 @@ public class ColossoDePedraViva extends Monstro{
 
         heroi.sofrerDano(danoFinal);
         System.out.println(heroi.getNome() + " recebeu " + danoFinal + " de dano!");
-    }
-
-    private void ativarModoDefensivo() {
-        System.out.println(this.getNome() + " fortalece sua estrutura rochosa, aumentando a defesa temporariamente!");
-        modoDefensivo = true;
     }
 
     private void arremessarPedra(Heroi heroi) {
@@ -85,11 +87,20 @@ public class ColossoDePedraViva extends Monstro{
         System.out.println(heroi.getNome() + " recebeu " + danoFinal + " de dano!");
     }
 
+    //--------------------- Ações de defesa --------------------
+
+    private void ativarModoDefensivo() {
+        System.out.println(this.getNome() + " fortalece sua estrutura rochosa, aumentando a defesa temporariamente!");
+        modoDefensivo = true;
+    }
+
     public void enraizar() {
         System.out.println(this.getNome() + " finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!");
         enraizado = true;
         this.setDefesa(this.getDefesa() + 20);
     }
+
+    //--------------------- Desativações de escudo --------------------
 
     private void desenraizar() {
         System.out.println(this.getNome() + " se liberta do solo e volta a se mover.");
