@@ -1,7 +1,9 @@
 package Jogo.Monstros;
 
-import Jogo.Herois.Heroi;
+import Jogo.Herois.*;
 import Jogo.enums.TipoMonstro;
+
+import java.util.Random;
 
 public class AbominacaoDaCarne extends Monstro {
     private int vidaMaxima;
@@ -16,8 +18,16 @@ public class AbominacaoDaCarne extends Monstro {
     }
 
     @Override
-    protected void realizarAcao(Heroi heroi) {
+    protected void realizarAcao(Heroi heroi) throws Exception {
         //TODO - realizar algum dos ataques de forma randomica
+        Random random = new Random();
+        int escolha = random.nextInt(3);
+        switch (escolha) {
+            case 0 -> esmagar(heroi);
+            case 1 -> regeneracaoProfana();
+            case 2 -> ataqueNormal(heroi);
+            default -> throw new Exception();
+        };
     }
 
     @Override

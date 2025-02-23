@@ -3,6 +3,8 @@ package Jogo.Monstros;
 import Jogo.Herois.Heroi;
 import Jogo.enums.TipoMonstro;
 
+import java.util.Random;
+
 public class EspectroDaAgonia extends Monstro {
     private boolean intangivelAtivo = false;
 
@@ -15,8 +17,17 @@ public class EspectroDaAgonia extends Monstro {
     }
 
     @Override
-    protected void realizarAcao(Heroi heroi) {
+    protected void realizarAcao(Heroi heroi) throws Exception {
         //TODO - realizar algum dos ataques de forma randomica - ivan
+        Random random = new Random();
+        int escolha = random.nextInt(4);
+        switch (escolha) {
+            case 0 -> gritoAssombrado(heroi);
+            case 1 -> drenarVida(heroi);
+            case 2 -> ataqueNormal(heroi);
+            case 3 -> ativarIntangibilidade();
+            default -> throw new Exception();
+        };
     }
 
     @Override
@@ -30,6 +41,13 @@ public class EspectroDaAgonia extends Monstro {
         }
         //TODO - se nenhum dos atributos forem true, tenta executar a acao, - ivan
         this.vida -= dano;
+
+        //sempre que comecar um turno novo, realizar os metodos de desativacao de escudo, como -> desativarIntangibilidade
+    }
+
+    @Override
+    public void comecarNovoTurno() {
+        desativarIntangibilidade();
     }
 
     /**

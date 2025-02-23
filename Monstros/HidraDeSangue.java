@@ -19,8 +19,17 @@ public class HidraDeSangue extends Monstro{
     }
 
     @Override
-    protected void realizarAcao(Heroi heroi) {
-        //TODO - realizar algum dos ataques de forma randomica
+    protected void realizarAcao(Heroi heroi) throws Exception {
+        //TODO - realizar algum dos ataques de forma randomica - ivan
+        Random random = new Random();
+        int escolha = random.nextInt(4);
+        switch (escolha) {
+            case 0 -> morderMultiplo(heroi);
+            case 1 -> regeneracaoSanguinea();
+            case 2 -> cabecasRenascidas();
+            case 3 -> ataqueNormal(heroi);
+            default -> throw new Exception();
+        };
     }
 
     @Override

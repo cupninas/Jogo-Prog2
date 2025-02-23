@@ -13,8 +13,11 @@ public abstract class Monstro extends Personagem {
         this.classe = classe;
     }
 
-    protected abstract void realizarAcao(Heroi heroi);
+    protected abstract void realizarAcao(Heroi heroi) throws Exception;
 
     public abstract void sofrerDano(int dano);
 
+    @Override
+    public void comecarNovoTurno() {
+    }
 }

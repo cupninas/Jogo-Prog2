@@ -3,6 +3,8 @@ package Jogo.Monstros;
 import Jogo.Herois.Heroi;
 import Jogo.enums.TipoMonstro;
 
+import java.util.Random;
+
 public class CavaleiroDoVazio extends Monstro{
 
     private boolean vazioEternoAtivo = false; // Ativado quando a vida está baixa
@@ -16,8 +18,17 @@ public class CavaleiroDoVazio extends Monstro{
     }
 
     @Override
-    protected void realizarAcao(Heroi heroi) {
+    protected void realizarAcao(Heroi heroi) throws Exception {
         //TODO - realizar algum dos ataques de forma randomica
+        Random random = new Random();
+        int escolha = random.nextInt(4);
+        switch (escolha) {
+            case 0 -> laminaDoAbismo(heroi);
+            case 1 -> ataqueSombrio(heroi);
+            case 2 -> defesaSombria();
+            case 3 -> vazioEterno();
+            default -> throw new Exception();
+        };
     }
 
     @Override
