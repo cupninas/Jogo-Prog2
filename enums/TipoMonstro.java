@@ -1,5 +1,5 @@
 package Jogo.enums;
-
+// classe que representa os monstros do jogo
 public enum TipoMonstro {
     ESPECTRO_DA_AGONIA(0, "Espectro da Agonia", "Criatura etérea que se alimenta do sofrimento das almas vivas."),
     ABOMINACAO_DA_CARNE(1, "Abominação da Carne", "Um amontoado de membros e olhos costurados juntos, movendo-se de forma grotesca."),

@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+// classe que representa o jogo
 public class Jogo {
     private List<Heroi> herois = new ArrayList<>();
     private List<Monstro> monstros = new ArrayList<>();
