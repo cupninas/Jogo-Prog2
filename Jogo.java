@@ -52,11 +52,39 @@ public class Jogo {
         };
     }
 
-    private void executarTurnos() {
+    private Monstro escolherMonstroMenorVida(List<Monstro> monstros) throws Exception {
+        if (monstros.isEmpty() ){
+            throw new Exception();
+        }
+
+        Monstro alvo = monstros.get(0);
+        for (Monstro monstro : monstros) {
+            if (monstro.getVida() < alvo.getVida()) {
+                alvo = monstro;
+            }
+        }
+        return alvo;
+    }
+
+    private Heroi escolherHeroiMenorVida(List<Heroi> herois) throws Exception {
+        if (herois.isEmpty() ){
+            throw new Exception();
+        }
+
+        Heroi alvo = herois.get(0);
+        for (Heroi heroi : herois) {
+            if (heroi.getVida() < alvo.getVida()) {
+                alvo = heroi;
+            }
+        }
+        return alvo;
+    }
+
+    private void executarTurnos() throws Exception {
         Random random = new Random();
         while (!herois.isEmpty() && !monstros.isEmpty()) {
-            Heroi heroi = herois.get(random.nextInt(herois.size()));
-            Monstro monstro = monstros.get(random.nextInt(monstros.size()));
+            Heroi heroi = escolherHeroiMenorVida(herois);
+            Monstro monstro = escolherMonstroMenorVida(monstros);
 
             monstro.sofrerDano(heroi.getAtaque());
             log.addLog(heroi.getNome() + " atacou " + monstro.getNome() + " causando " + heroi.getAtaque() + " de dano.");

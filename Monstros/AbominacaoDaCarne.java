@@ -42,7 +42,13 @@ public class AbominacaoDaCarne extends Monstro {
     public void sofrerDano(int dano) {
         //TODO - Esse metodo só é chamado por outra classe, não por essa aqui - ivan
         //aqui nao tem esses atributos escudos, nao precisa fazer a verificacao - ivan
+
+        if (corpoRemendado) {
+            dano = (int) (dano * 0.7);
+        }
         //TODO - se nenhum dos atributos forem true, tenta executar a acao, - ivan
+
+        if (dano < 0) dano = 0;
         this.vida -= dano;
     }
 
