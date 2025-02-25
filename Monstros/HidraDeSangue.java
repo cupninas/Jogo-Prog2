@@ -1,6 +1,7 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.Heroi;
+import Jogo.Log;
 import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 

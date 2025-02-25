@@ -12,7 +12,7 @@ import java.util.Random;
 public class Jogo {
     private List<Heroi> herois = new ArrayList<>();
     private List<Monstro> monstros = new ArrayList<>();
-    private Log log = new Log();
+    public static Log log = new Log();
     private TipoDificuldade dificuldade;
     private static Random random = new Random();
 
@@ -64,41 +64,28 @@ public class Jogo {
     }
 
     private Monstro escolherMonstroMenorVida(List<Monstro> monstros) throws Exception {
-        if (monstros.isEmpty() ){
-            throw new Exception();
-        }
+        if (monstros.isEmpty()) throw new Exception();
 
         Monstro alvo = monstros.get(0);
-        for (Monstro monstro : monstros) {
-            if (monstro.getVida() < alvo.getVida()) {
-                alvo = monstro;
-            }
-        }
+        for (Monstro monstro : monstros) if (monstro.getVida() < alvo.getVida()) alvo = monstro;
         return alvo;
     }
 
     private Heroi escolherHeroiMenorVida(List<Heroi> herois) throws Exception {
-        if (herois.isEmpty() ){
-            throw new Exception();
-        }
+        if (herois.isEmpty()) throw new Exception();
 
         Heroi alvo = herois.get(0);
-        for (Heroi heroi : herois) {
-            if (heroi.getVida() < alvo.getVida()) {
-                alvo = heroi;
-            }
-        }
+        for (Heroi heroi : herois) if (heroi.getVida() < alvo.getVida()) alvo = heroi;
         return alvo;
     }
 
     private void executarTurnos() throws Exception {
-        Random random = new Random();
         while (!herois.isEmpty() && !monstros.isEmpty()) {
             Heroi heroi = escolherHeroiMenorVida(herois);
             Monstro monstro = escolherMonstroMenorVida(monstros);
 
             monstro.sofrerDano(heroi.getAtaque());
-            log.addLog(heroi.getNome() + " atacou " + monstro.getNome() + " causando " + heroi.getAtaque() + " de dano.");
+            //log.addLog(heroi.getNome() + " atacou " + monstro.getNome() + " causando " + heroi.getAtaque() + " de dano.");
 
             if (!monstro.estaVivo()) {
                 log.addLog(monstro.getNome() + " foi derrotado!");

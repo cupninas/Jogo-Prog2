@@ -6,6 +6,8 @@ import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
 
+import static Jogo.Jogo.log;
+
 public class AbominacaoDaCarne extends Monstro {
 
     private int vidaMaxima;
@@ -55,16 +57,13 @@ public class AbominacaoDaCarne extends Monstro {
 
     @Override
     public void sofrerDano(int dano) {
-        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui - ivan
-        //aqui nao tem esses atributos escudos, nao precisa fazer a verificacao - ivan
-
         if (corpoRemendado) {
+            log.addLog(getNome() + " usa seu CORPO REMENDADO para reduzir o impacto do golpe!");
             dano = (int) (dano * 0.7);
         }
-        //TODO - se nenhum dos atributos forem true, tenta executar a acao, - ivan
-
         if (dano < 0) dano = 0;
         this.vida -= dano;
+        log.addLog(getNome() + " sofreu " + dano + " de dano!");
     }
 
     @Override

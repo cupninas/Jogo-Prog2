@@ -1,6 +1,7 @@
 package Jogo.Herois;
 
 
+import Jogo.Log;
 import Jogo.Monstros.Monstro;
 import Jogo.Personagem;
 import Jogo.enums.TipoArma;
@@ -19,7 +20,5 @@ public abstract class Heroi extends Personagem {
     }
 
 	public abstract void realizarAcao(Monstro monstro) throws Exception;
-
-	public abstract void sofrerDano(int dano);
 
 }

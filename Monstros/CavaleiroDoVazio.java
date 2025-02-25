@@ -1,10 +1,13 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.Heroi;
+import Jogo.Log;
 import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
+
+import static Jogo.Jogo.log;
 
 public class CavaleiroDoVazio extends Monstro{
 
@@ -49,10 +52,11 @@ public class CavaleiroDoVazio extends Monstro{
 
     @Override
     public void sofrerDano(int dano) {
-        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui - ivan
-        //aqui nao tem esses atributos escudos, nao precisa fazer a verificacao - ivan
-        //TODO - se nenhum dos atributos forem true, tenta executar a acao - ivan
-        this.vida -= dano;
+        if (vazioEternoAtivo) log.addLog(getNome() + " absorveu o ataque com o VAZIO ETERNO e não sofreu dano!");
+        else {
+            this.vida -= dano;
+            log.addLog(getNome() + " sofreu " + dano + " de dano!");
+        }
     }
 
     @Override

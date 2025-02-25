@@ -26,9 +26,8 @@ public abstract class Personagem {
 		this.destreza = destreza;
 		this.velocidade = velocidade;
 	}
-	public void sofrerDano(int dano) {
-		this.vida -= dano;
-	}
+	public abstract void sofrerDano(int dano);
+
 	public boolean estaVivo() {
 		return this.vida > 0;
 	}
