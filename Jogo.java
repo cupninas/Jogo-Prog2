@@ -51,7 +51,6 @@ public class Jogo {
     private static Heroi gerarHeroiAleatorio() throws Exception {
         int escolha = random.nextInt(4);
         int vida = random.nextInt(500)+100;
-        int ataque = random.nextInt(50)+5;
         int defesa = random.nextInt(50)+5;
         int destreza = random.nextInt(50)+5;
         int velocidade = random.nextInt(50)+5;
