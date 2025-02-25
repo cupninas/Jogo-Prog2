@@ -43,6 +43,9 @@ public class Arqueiro extends Heroi {
 			log.addLog(this.getNome() + " errou sua ação!");
 			return;
 		}
+
+		log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
+
 		int escolha = RANDOM.nextInt(4);
 		switch (escolha) {
 			case 0 -> disparoComFlecha(monstro);
@@ -59,7 +62,7 @@ public class Arqueiro extends Heroi {
 			desativarFlechaCarregada();
 		} else {
 			this.vida -= dano;
-			System.out.println(getNome() + " sofreu " + dano + " de dano!");
+			log.addLog(getNome() + " sofreu " + dano + " de dano!");
 		}
 	}
 

@@ -65,7 +65,6 @@ public class Turno {
             Monstro monstro = escolherMonstroMenorVida(monstros);
 
             monstro.sofrerDano(heroi.getAtaque());
-            //log.addLog(heroi.getNome() + " atacou " + monstro.getNome() + " causando " + heroi.getAtaque() + " de dano.");
 
             if (!monstro.estaVivo()) {
                 log.addLog(monstro.getNome() + " foi derrotado!");

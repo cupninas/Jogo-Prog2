@@ -1,9 +1,6 @@
 package Jogo.enums;
 
-import lombok.Getter;
 
-// classe que representa os heróis do jogo
-@Getter
 public enum TipoHeroi {
     GUERREIRO(0, "Guerreiro", "Especialista em combate corpo a corpo, usa força e resistência para vencer seus inimigos.", 5),
     MAGO(1, "Mago", "Mestre das artes arcanas, canaliza energia mágica para lançar feitiços poderosos.", 4),
@@ -22,4 +19,19 @@ public enum TipoHeroi {
         this.ataque = ataque;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public int getAtaque() {
+        return ataque;
+    }
 }

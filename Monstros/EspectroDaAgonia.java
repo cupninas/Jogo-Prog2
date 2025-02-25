@@ -45,6 +45,9 @@ public class EspectroDaAgonia extends Monstro {
             log.addLog(this.getNome() + " errou sua ação!");
             return;
         }
+
+        log.addLog(this.getNome() + " atacou " + heroi.getNome() + ".");
+
         int escolha = RANDOM.nextInt(4);
         switch (escolha) {
             case 0 -> gritoAssombrado(heroi);
@@ -75,10 +78,6 @@ public class EspectroDaAgonia extends Monstro {
      */
     private void gritoAssombrado(Heroi heroi) {
         log.addLog(this.getNome() + " solta um GRITO ASSOMBRADO!");
-
-        // Aplica paralisia no herói por 1 turno
-        heroi.setParalisado(true);
-        log.addLog(heroi.getNome() + " está paralisado pelo medo!");
 
         // Reduz temporariamente a defesa do herói
         int reducaoDefesa = (int) (heroi.getDefesa() * 0.3); // Reduz 30% da defesa

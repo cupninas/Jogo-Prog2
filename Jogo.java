@@ -9,6 +9,8 @@ public class Jogo {
         //iniciar jogo
         log.addLog("Jogo iniciado com dificuldade: " + TipoDificuldade.MEDIO.toString());
         Turno turno = new Turno(TipoDificuldade.MEDIO, 4, 3);
+        log.clearLogs();
         turno.executarTurnos();
+        log.showLogs();
     }
 }

@@ -7,7 +7,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
-import java.util.Random;
 
 import static Jogo.Jogo.log;
 
@@ -48,6 +47,9 @@ public class Ladino extends Heroi {
 			log.addLog(this.getNome() + " errou sua ação!");
 			return;
 		}
+
+		log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
+
 		int escolha = RANDOM.nextInt(5);
 		switch (escolha) {
 			case 0 -> golpePreciso(monstro);

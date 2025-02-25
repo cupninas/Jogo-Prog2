@@ -48,6 +48,9 @@ public class HidraDeSangue extends Monstro{
             log.addLog(this.getNome() + " errou sua ação!");
             return;
         }
+
+        log.addLog(this.getNome() + " atacou " + heroi.getNome() + ".");
+
         int escolha = RANDOM.nextInt(5);
         switch (escolha) {
             case 0 -> morderMultiplo(heroi);

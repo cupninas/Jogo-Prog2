@@ -42,6 +42,9 @@ public class Guerreiro extends Heroi {
             log.addLog(this.getNome() + " errou sua ação!");
             return;
         }
+
+        log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
+
         int escolha = RANDOM.nextInt(6);
         switch (escolha) {
             case 0 -> ativarFuria();

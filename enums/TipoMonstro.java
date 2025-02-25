@@ -1,8 +1,5 @@
 package Jogo.enums;
 
-import lombok.Getter;
-
-@Getter
 public enum TipoMonstro {
     ESPECTRO_DA_AGONIA(0, "Espectro da Agonia", "Criatura etérea que se alimenta do sofrimento das almas vivas."),
     ABOMINACAO_DA_CARNE(1, "Abominação da Carne", "Um amontoado de membros e olhos costurados juntos, movendo-se de forma grotesca."),
@@ -18,5 +15,17 @@ public enum TipoMonstro {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
     }
 }
