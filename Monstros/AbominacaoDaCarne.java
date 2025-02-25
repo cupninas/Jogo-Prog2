@@ -61,6 +61,7 @@ public class AbominacaoDaCarne extends Monstro {
         if (corpoRemendado) {
             log.addLog(getNome() + " usa seu CORPO REMENDADO para reduzir o impacto do golpe!");
             dano = (int) (dano * 0.7);
+            desativarCorpoRemendado();
         }
         if (dano < 0) dano = 0;
         this.vida -= dano;
@@ -70,7 +71,7 @@ public class AbominacaoDaCarne extends Monstro {
     //--------------------- Ações de ataque --------------------
 
     private void esmagar(Heroi heroi) {
-        System.out.println(this.getNome() + " usa ESMAGAR!");
+        log.addLog(this.getNome() + " usa ESMAGAR!");
 
         // Causa 50% mais dano e ignora 30% da defesa do herói
         int danoBase = this.getAtaque();
@@ -80,18 +81,18 @@ public class AbominacaoDaCarne extends Monstro {
         if (danoFinal < 0) danoFinal = 0; // Evita dano negativo
         heroi.sofrerDano(danoFinal);
 
-        System.out.println(heroi.getNome() + " recebeu " + danoFinal + " de dano!");
+        log.addLog(heroi.getNome() + " recebeu " + danoFinal + " de dano!");
     }
 
     private void regeneracaoProfana() {
         int cura = (int) (this.vidaMaxima * 0.1); // Recupera 10% da vida máxima
         this.setVida(this.getVida() + cura);
 
-        System.out.println(this.getNome() + " ativa REGENERAÇÃO PROFANA e recupera " + cura + " de HP!");
+        log.addLog(this.getNome() + " ativa REGENERAÇÃO PROFANA e recupera " + cura + " de HP!");
     }
 
     private void ataqueNormal(Heroi heroi) {
-        System.out.println(this.getNome() + " ataca com um soco brutal!");
+        log.addLog(this.getNome() + " ataca com um soco brutal!");
         heroi.sofrerDano(this.getAtaque());
     }
 
@@ -101,9 +102,9 @@ public class AbominacaoDaCarne extends Monstro {
         if (!corpoRemendado) {
             corpoRemendado = true;
             this.defesa += 10; // Aumenta a defesa enquanto estiver ativo
-            System.out.println(this.getNome() + " costura sua carne retorcida e fortalece sua defesa!");
+            log.addLog(this.getNome() + " costura sua carne retorcida e fortalece sua defesa!");
         } else {
-            System.out.println(this.getNome() + " já está com o Corpo Remendado ativo!");
+            log.addLog(this.getNome() + " já está com o Corpo Remendado ativo!");
         }
     }
 
@@ -113,7 +114,7 @@ public class AbominacaoDaCarne extends Monstro {
         if (corpoRemendado) {
             corpoRemendado = false;
             this.defesa -= 10; // Retorna a defesa ao normal
-            System.out.println(this.getNome() + " começa a se decompor novamente... Corpo Remendado foi desativado!");
+            log.addLog(this.getNome() + " começa a se decompor novamente... Corpo Remendado foi desativado!");
         }
     }
 

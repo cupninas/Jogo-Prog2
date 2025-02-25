@@ -7,6 +7,8 @@ import Jogo.enums.TipoHeroi;
 import java.util.List;
 import java.util.Random;
 
+import static Jogo.Jogo.log;
+
 public class Arqueiro extends Heroi {
 
 	// Construtor principal com todos os atributos
@@ -50,9 +52,6 @@ public class Arqueiro extends Heroi {
 	public void sofrerDano(int dano) {
 	}
 
-	@Override
-	public void comecarNovoTurno() { desativarFlechaCarregada(); }
-
 	//--------------------- Ações de ataque --------------------
 
 	private void disparoComFlecha(Monstro monstro) {
@@ -74,20 +73,20 @@ public class Arqueiro extends Heroi {
 		if (danoFinal < 0) danoFinal = 0;
 
 		monstro.sofrerDano(danoFinal);
-		System.out.println(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
+		log.addLog(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
 	}
 
 	private void ataqueRapido(Monstro monstro) {
-		System.out.println(this.getNome() + " desfere ataques rápidos com sua " + armaPrincipal.getNome() + "!");
+		log.addLog(this.getNome() + " desfere ataques rápidos com sua " + armaPrincipal.getNome() + "!");
 
 		int danoBase = this.getAtaque();
 		if (armaPrincipal == TipoArma.ADAGA) {
 			danoBase -= 5;
-			System.out.println("Ataques mais rápidos, mas com menos dano!");
+			log.addLog("Ataques mais rápidos, mas com menos dano!");
 		}
 
 		if (Math.random() < 0.2) {
-			System.out.println("Ataque duplo! O Arqueiro desfere um golpe extra!");
+			log.addLog("Ataque duplo! O Arqueiro desfere um golpe extra!");
 			danoBase *= 2;
 		}
 
@@ -95,13 +94,13 @@ public class Arqueiro extends Heroi {
 		if (danoFinal < 0) danoFinal = 0;
 
 		monstro.sofrerDano(danoFinal);
-		System.out.println(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
+		log.addLog(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
 	}
 
 	//--------------------- Ações de defesa --------------------
 
 	public void carregarFlecha() {
-		System.out.println(this.getNome() + " prepara uma flecha carregada para o próximo turno!");
+		log.addLog(this.getNome() + " prepara uma flecha carregada para o próximo turno!");
 		flechaCarregada = true;
 	}
 
@@ -110,9 +109,9 @@ public class Arqueiro extends Heroi {
 	public void desativarFlechaCarregada() {
 		if (flechaCarregada) {
 			flechaCarregada = false;
-			System.out.println(this.getNome() + " relaxa a tensão do arco e desfaz a Flecha Carregada.");
+			log.addLog(this.getNome() + " relaxa a tensão do arco e desfaz a Flecha Carregada.");
 		} else {
-			System.out.println(this.getNome() + " não estava com uma Flecha Carregada ativa.");
+			log.addLog(this.getNome() + " não estava com uma Flecha Carregada ativa.");
 		}
 	}
 }

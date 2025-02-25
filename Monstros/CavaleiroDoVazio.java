@@ -60,15 +60,10 @@ public class CavaleiroDoVazio extends Monstro{
         }
     }
 
-    @Override
-    public void comecarNovoTurno() {
-        desativarVazioEterno();
-    }
-
     //--------------------- Ações de ataque --------------------
 
     private void laminaDoAbismo(Heroi heroi) {
-        System.out.println(this.getNome() + " invoca a LÂMINA DO ABISMO!");
+        log.addLog(this.getNome() + " invoca a LÂMINA DO ABISMO!");
 
         // Causa 50% mais dano e ignora 20% da defesa do herói
         int danoBase = this.getAtaque();
@@ -78,11 +73,11 @@ public class CavaleiroDoVazio extends Monstro{
         if (danoFinal < 0) danoFinal = 0;
         heroi.sofrerDano(danoFinal);
 
-        System.out.println(heroi.getNome() + " recebeu " + danoFinal + " de dano do abismo!");
+        log.addLog(heroi.getNome() + " recebeu " + danoFinal + " de dano do abismo!");
     }
 
     private void ataqueSombrio(Heroi heroi) {
-        System.out.println(this.getNome() + " lança um ATAQUE SOMBRIO!");
+        log.addLog(this.getNome() + " lança um ATAQUE SOMBRIO!");
 
         int dano = this.getAtaque();
         heroi.sofrerDano(dano);
@@ -91,13 +86,13 @@ public class CavaleiroDoVazio extends Monstro{
         int cura = (int) (dano * 0.1);
         this.setVida(this.getVida() + cura);
 
-        System.out.println(this.getNome() + " absorveu " + cura + " de vida com o ataque!");
+        log.addLog(this.getNome() + " absorveu " + cura + " de vida com o ataque!");
     }
 
     //--------------------- Ações de defesa --------------------
 
     private void defesaSombria() {
-        System.out.println(this.getNome() + " envolve-se em uma aura negra, aumentando sua defesa temporariamente!");
+        log.addLog(this.getNome() + " envolve-se em uma aura negra, aumentando sua defesa temporariamente!");
 
         // Aumenta a defesa em 20% por um turno
         int aumentoDefesa = (int) (this.getDefesa() * 0.2);
@@ -105,7 +100,7 @@ public class CavaleiroDoVazio extends Monstro{
     }
 
     private void vazioEterno() {
-        System.out.println(this.getNome() + " ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!");
+        log.addLog(this.getNome() + " ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!");
 
         vazioEternoAtivo = true;
 
@@ -118,9 +113,9 @@ public class CavaleiroDoVazio extends Monstro{
     private void desativarVazioEterno() {
         if (vazioEternoAtivo) {
             vazioEternoAtivo = false;
-            System.out.println(this.getNome() + " sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!");
+            log.addLog(this.getNome() + " sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!");
         } else {
-            System.out.println(this.getNome() + " já não está mais imerso no Vazio Eterno.");
+            log.addLog(this.getNome() + " já não está mais imerso no Vazio Eterno.");
         }
     }
 

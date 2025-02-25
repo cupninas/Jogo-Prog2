@@ -62,11 +62,6 @@ public class EspectroDaAgonia extends Monstro {
         }
     }
 
-    @Override
-    public void comecarNovoTurno() {
-        desativarIntangibilidade();
-    }
-
     //--------------------- Ações de ataque --------------------
 
     /**
@@ -75,16 +70,16 @@ public class EspectroDaAgonia extends Monstro {
      * ✔ Reduz a defesa do herói em 30% temporariamente → Deixa-o mais vulnerável a ataques.
      */
     private void gritoAssombrado(Heroi heroi) {
-        System.out.println(this.getNome() + " solta um GRITO ASSOMBRADO!");
+        log.addLog(this.getNome() + " solta um GRITO ASSOMBRADO!");
 
         // Aplica paralisia no herói por 1 turno
         heroi.setParalisado(true);
-        System.out.println(heroi.getNome() + " está paralisado pelo medo!");
+        log.addLog(heroi.getNome() + " está paralisado pelo medo!");
 
         // Reduz temporariamente a defesa do herói
         int reducaoDefesa = (int) (heroi.getDefesa() * 0.3); // Reduz 30% da defesa
         heroi.setDefesa(heroi.getDefesa() - reducaoDefesa);
-        System.out.println(heroi.getNome() + " teve sua defesa reduzida em " + reducaoDefesa + " pontos!");
+        log.addLog(heroi.getNome() + " teve sua defesa reduzida em " + reducaoDefesa + " pontos!");
 
         // TODO: Criar um sistema para restaurar a defesa após um turno - ivan
     }
@@ -96,17 +91,17 @@ public class EspectroDaAgonia extends Monstro {
      * ✔ Recupera parte do dano causado
      */
     private void drenarVida(Heroi heroi) {
-        System.out.println(this.getNome() + " usa DRENAR VIDA!");
+        log.addLog(this.getNome() + " usa DRENAR VIDA!");
 
         // Calcula dano baseado no ataque do espectro
         int dano = this.getAtaque();
         heroi.sofrerDano(dano);
-        System.out.println(heroi.getNome() + " perdeu " + dano + " de HP!");
+        log.addLog(heroi.getNome() + " perdeu " + dano + " de HP!");
 
         // Recupera 50% do dano causado
         int cura = dano / 2;
         this.setVida(this.getVida() + cura);
-        System.out.println(this.getNome() + " absorveu " + cura + " de HP!");
+        log.addLog(this.getNome() + " absorveu " + cura + " de HP!");
     }
 
     /**
@@ -116,14 +111,14 @@ public class EspectroDaAgonia extends Monstro {
     *✔ O efeito dura apenas 1 turno e precisa ser reativado em outro momento.
     */
     private void ataqueNormal(Heroi heroi) {
-        System.out.println(this.getNome() + " ataca normalmente!");
+        log.addLog(this.getNome() + " ataca normalmente!");
         heroi.sofrerDano(this.getAtaque());
     }
 
     //--------------------- Ações de defesa --------------------
 
     private void ativarIntangibilidade() {
-        System.out.println(this.getNome() + " se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.");
+        log.addLog(this.getNome() + " se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.");
         this.intangivelAtivo = true;
     }
 
@@ -131,7 +126,7 @@ public class EspectroDaAgonia extends Monstro {
 
     public void desativarIntangibilidade() {
         if (intangivelAtivo) {
-            System.out.println(this.getNome() + " retorna ao plano físico.");
+            log.addLog(this.getNome() + " retorna ao plano físico.");
             this.intangivelAtivo = false;
         }
     }

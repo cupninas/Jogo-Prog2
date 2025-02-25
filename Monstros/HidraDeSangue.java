@@ -65,15 +65,10 @@ public class HidraDeSangue extends Monstro{
         this.vida -= dano;
     }
 
-    @Override
-    public void comecarNovoTurno() {
-        concluirRegeneracaoDeCabecas();
-    }
-
     //--------------------- Ações de ataque --------------------
 
     private void morderMultiplo(Heroi heroi) {
-        System.out.println(this.getNome() + " ataca com suas múltiplas cabeças!");
+        log.addLog(this.getNome() + " ataca com suas múltiplas cabeças!");
 
         Random random = new Random();
         int numeroMordidas = random.nextInt(3) + 2; // Entre 2 e 4 mordidas
@@ -81,12 +76,12 @@ public class HidraDeSangue extends Monstro{
         for (int i = 0; i < numeroMordidas; i++) {
             int dano = this.getAtaque() / 2; // Cada mordida causa metade do ataque normal
             heroi.sofrerDano(dano);
-            System.out.println("Mordida #" + (i + 1) + ": " + heroi.getNome() + " recebeu " + dano + " de dano!");
+            log.addLog("Mordida #" + (i + 1) + ": " + heroi.getNome() + " recebeu " + dano + " de dano!");
         }
     }
 
     private void ataqueNormal(Heroi heroi) {
-        System.out.println(this.getNome() + " lança uma investida feroz!");
+        log.addLog(this.getNome() + " lança uma investida feroz!");
         heroi.sofrerDano(this.getAtaque());
     }
 
@@ -96,15 +91,15 @@ public class HidraDeSangue extends Monstro{
         int cura = (int) (this.vidaMaxima * 0.08); // Cura 8% da vida máxima
         this.setVida(this.getVida() + cura);
 
-        System.out.println(this.getNome() + " ativa REGENERAÇÃO SANGUÍNEA e recupera " + cura + " de HP!");
+        log.addLog(this.getNome() + " ativa REGENERAÇÃO SANGUÍNEA e recupera " + cura + " de HP!");
     }
 
     private void cabecasRenascidas() {
-        System.out.println(this.getNome() + " ruge enquanto novas cabeças surgem, restaurando parte de seu poder!");
+        log.addLog(this.getNome() + " ruge enquanto novas cabeças surgem, restaurando parte de seu poder!");
 
         int cura = (int) (this.vidaMaxima * 0.4); // Recupera 40% da vida máxima
         this.setVida(this.getVida() + cura);
-        System.out.println(this.getNome() + " regenerou " + cura + " de HP!");
+        log.addLog(this.getNome() + " regenerou " + cura + " de HP!");
 
         // Poderia ganhar um buff temporário, como aumento de ataque ou defesa
     }
@@ -112,9 +107,9 @@ public class HidraDeSangue extends Monstro{
     public void ativarRegeneracaoDeCabecas() {
         if (!cabecasCortadasCrescendo) {
             cabecasCortadasCrescendo = true;
-            System.out.println(this.getNome() + " começa a regenerar suas cabeças cortadas... Em breve ela estará ainda mais poderosa!");
+            log.addLog(this.getNome() + " começa a regenerar suas cabeças cortadas... Em breve ela estará ainda mais poderosa!");
         } else {
-            System.out.println(this.getNome() + " já está regenerando suas cabeças!");
+            log.addLog(this.getNome() + " já está regenerando suas cabeças!");
         }
     }
 
@@ -124,9 +119,9 @@ public class HidraDeSangue extends Monstro{
         if (cabecasCortadasCrescendo) {
             cabecasCortadasCrescendo = false;
             this.ataque += 5; // Com mais cabeças, o ataque aumenta
-            System.out.println(this.getNome() + " regenerou suas cabeças cortadas! Agora ficou ainda mais feroz!");
+            log.addLog(this.getNome() + " regenerou suas cabeças cortadas! Agora ficou ainda mais feroz!");
         } else {
-            System.out.println(this.getNome() + " não tem cabeças cortadas para regenerar.");
+            log.addLog(this.getNome() + " não tem cabeças cortadas para regenerar.");
         }
     }
 

@@ -7,6 +7,8 @@ import Jogo.enums.TipoHeroi;
 import java.util.List;
 import java.util.Random;
 
+import static Jogo.Jogo.log;
+
 public class Mago extends Heroi {
 
 	private boolean manaReservada = false;
@@ -49,11 +51,8 @@ public class Mago extends Heroi {
 
 	}
 
-	@Override
-	public void comecarNovoTurno() { desativarManaReservada(); }
-
 	private void rajadaArcana(Monstro monstro) {
-		System.out.println(getNome() + " lança uma RAJADA ARCANA!");
+		log.addLog(getNome() + " lança uma RAJADA ARCANA!");
 		int dano = this.getAtaque();
 		if (manaReservada) {
 			dano += 15; // Se tiver mana reservada, o dano aumenta
@@ -63,14 +62,14 @@ public class Mago extends Heroi {
 	}
 
 	private void explosaoElemental(Monstro monstro) {
-		System.out.println(getNome() + " conjura uma EXPLOSÃO ELEMENTAL!");
+		log.addLog(getNome() + " conjura uma EXPLOSÃO ELEMENTAL!");
 		int dano = this.getAtaque() * (manaReservada ? 2 : 1);
 		monstro.sofrerDano(dano);
 		desativarManaReservada();
 	}
 
 	private void raioDesintegrador(Monstro monstro) {
-		System.out.println(getNome() + " dispara um RAIO DESINTEGRADOR!");
+		log.addLog(getNome() + " dispara um RAIO DESINTEGRADOR!");
 		int dano = this.getAtaque();
 		if (manaReservada) {
 			dano *= 2;
@@ -80,7 +79,7 @@ public class Mago extends Heroi {
 	}
 
 	private void setasMisticas(Monstro monstro) {
-		System.out.println(getNome() + " lança múltiplas SETAS MÍSTICAS!");
+		log.addLog(getNome() + " lança múltiplas SETAS MÍSTICAS!");
 		int dano = this.getAtaque() / 2;
 		if (manaReservada) {
 			dano *= 2;
@@ -95,12 +94,12 @@ public class Mago extends Heroi {
 
 	public void ativarManaReservada() {
 		this.manaReservada = true;
-		System.out.println(getNome() + " começou a acumular energia mágica!");
+		log.addLog(getNome() + " começou a acumular energia mágica!");
 	}
 
 	public void desativarManaReservada() {
 		this.manaReservada = false;
-		System.out.println(getNome() + " dispersou sua energia mágica acumulada.");
+		log.addLog(getNome() + " dispersou sua energia mágica acumulada.");
 	}
 }
 
