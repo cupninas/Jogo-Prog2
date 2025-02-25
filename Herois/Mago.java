@@ -36,9 +36,13 @@ public class Mago extends Heroi {
 
 	@Override
 	public void realizarAcao(Monstro monstro) throws Exception {
-		//TODO - realizar algum dos ataques de forma randomica
-		Random random = new Random();
-		int escolha = random.nextInt(5);
+		double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
+
+		if (Math.random() > chanceDeAcerto) {
+			log.addLog(this.getNome() + " errou sua ação!");
+			return;
+		}
+		int escolha = RANDOM.nextInt(5);
 		switch (escolha) {
 			case 0 -> ativarManaReservada();
 			case 1 -> rajadaArcana(monstro);

@@ -36,7 +36,12 @@ public class Guerreiro extends Heroi {
 
     @Override
     public void realizarAcao(Monstro monstro) throws Exception {
-        // TODO - colocar uma tentativa de realizar acao.
+        double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
+
+        if (Math.random() > chanceDeAcerto) {
+            log.addLog(this.getNome() + " errou sua ação!");
+            return;
+        }
         int escolha = RANDOM.nextInt(6);
         switch (escolha) {
             case 0 -> ativarFuria();

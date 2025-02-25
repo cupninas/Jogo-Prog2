@@ -37,9 +37,13 @@ public class Arqueiro extends Heroi {
 
 	@Override
 	public void realizarAcao(Monstro monstro) throws Exception {
-		//TODO - a flecha carregada tem influencia aqui, quando esta ativada tem mais chance da acao acontecer. realizar algum dos ataques de forma randomica
-		Random random = new Random();
-		int escolha = random.nextInt(4);
+		double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
+
+		if (Math.random() > chanceDeAcerto) {
+			log.addLog(this.getNome() + " errou sua ação!");
+			return;
+		}
+		int escolha = RANDOM.nextInt(4);
 		switch (escolha) {
 			case 0 -> disparoComFlecha(monstro);
 			case 1 -> ataqueRapido(monstro);
