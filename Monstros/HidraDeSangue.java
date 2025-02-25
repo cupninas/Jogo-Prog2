@@ -119,11 +119,9 @@ public class HidraDeSangue extends Monstro{
     //--------------------- Desativações de escudo --------------------
 
     public void concluirRegeneracaoDeCabecas() {
-        if (cabecasCortadasCrescendo) {
-            cabecasCortadasCrescendo = false;
-            this.ataque += 5; // Com mais cabeças, o ataque aumenta
-            log.addLog(this.getNome() + " regenerou suas cabeças cortadas! Agora ficou ainda mais feroz!");
-        }
+        cabecasCortadasCrescendo = false;
+        this.ataque += 5; // Com mais cabeças, o ataque aumenta
+        log.addLog(this.getNome() + " regenerou suas cabeças cortadas! Agora ficou ainda mais feroz!");
     }
 
 }

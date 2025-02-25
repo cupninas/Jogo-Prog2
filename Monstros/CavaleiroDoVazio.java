@@ -114,12 +114,8 @@ public class CavaleiroDoVazio extends Monstro{
     //--------------------- Desativações de escudo --------------------
 
     private void desativarVazioEterno() {
-        if (vazioEternoAtivo) {
-            vazioEternoAtivo = false;
-            log.addLog(this.getNome() + " sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!");
-        } else {
-            log.addLog(this.getNome() + " já não está mais imerso no Vazio Eterno.");
-        }
+        vazioEternoAtivo = false;
+        log.addLog(this.getNome() + " sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!");
     }
 
 }

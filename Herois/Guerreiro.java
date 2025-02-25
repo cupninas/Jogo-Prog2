@@ -52,10 +52,13 @@ public class Guerreiro extends Heroi {
 
     @Override
     public void sofrerDano(int dano) {
-        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui.
-        // Aqui nao tem esses atributos escudos, nao precisa fazer a verificacao.
-        // se nenhum dos atributos forem true, tenta executar a acao,
-        this.vida -= dano;
+        if (furiaAtiva) {
+            log.addLog(this.getNome() + " está em fúria e desvia de todos os golpes.");
+            desativarFuria();
+        } else {
+            this.vida -= dano;
+            log.addLog(this.getNome() + " sofreu " + dano + " de dano!");
+        }
     }
 
     //--------------------- Ações de ataque --------------------
@@ -132,14 +135,10 @@ public class Guerreiro extends Heroi {
     //--------------------- Desativações de escudo --------------------
 
     private void desativarFuria() {
-        if (furiaAtiva) {
-            furiaAtiva = false;
-            this.ataque -= 10; // Retorna o ataque ao normal
-            this.defesa += 5; // Recupera a defesa perdida
-            log.addLog(this.getNome() + " se acalma e sai do estado de FÚRIA.");
-        } else {
-            log.addLog(this.getNome() + " não está em fúria no momento.");
-        }
+        furiaAtiva = false;
+        this.ataque -= 10; // Retorna o ataque ao normal
+        this.defesa += 5; // Recupera a defesa perdida
+        log.addLog(this.getNome() + " se acalma e sai do estado de FÚRIA.");
     }
 
 }

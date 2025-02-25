@@ -111,11 +111,9 @@ public class AbominacaoDaCarne extends Monstro {
     //--------------------- Desativações de escudo --------------------
 
     public void desativarCorpoRemendado() {
-        if (corpoRemendado) {
-            corpoRemendado = false;
-            this.defesa -= 10; // Retorna a defesa ao normal
-            log.addLog(this.getNome() + " começa a se decompor novamente... Corpo Remendado foi desativado!");
-        }
+        corpoRemendado = false;
+        this.defesa -= 10; // Retorna a defesa ao normal
+        log.addLog(this.getNome() + " começa a se decompor novamente... Corpo Remendado foi desativado!");
     }
 
 }

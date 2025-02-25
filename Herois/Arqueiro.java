@@ -50,6 +50,13 @@ public class Arqueiro extends Heroi {
 
 	@Override
 	public void sofrerDano(int dano) {
+		if (flechaCarregada) {
+			log.addLog(getNome() + " foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.");
+			desativarFlechaCarregada();
+		} else {
+			this.vida -= dano;
+			System.out.println(getNome() + " sofreu " + dano + " de dano!");
+		}
 	}
 
 	//--------------------- Ações de ataque --------------------
@@ -107,11 +114,7 @@ public class Arqueiro extends Heroi {
 	//--------------------- Desativações de escudo --------------------
 
 	public void desativarFlechaCarregada() {
-		if (flechaCarregada) {
-			flechaCarregada = false;
-			log.addLog(this.getNome() + " relaxa a tensão do arco e desfaz a Flecha Carregada.");
-		} else {
-			log.addLog(this.getNome() + " não estava com uma Flecha Carregada ativa.");
-		}
+		flechaCarregada = false;
+		log.addLog(this.getNome() + " relaxa a tensão do arco e desfaz a Flecha Carregada.");
 	}
 }

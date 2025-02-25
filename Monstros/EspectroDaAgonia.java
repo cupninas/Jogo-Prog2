@@ -125,9 +125,7 @@ public class EspectroDaAgonia extends Monstro {
     //--------------------- Desativações de escudo --------------------
 
     public void desativarIntangibilidade() {
-        if (intangivelAtivo) {
-            log.addLog(this.getNome() + " retorna ao plano físico.");
-            this.intangivelAtivo = false;
-        }
+        log.addLog(this.getNome() + " retorna ao plano físico.");
+        this.intangivelAtivo = false;
     }
 }
