@@ -89,7 +89,7 @@ public class Turno {
     private Monstro escolherMonstroMenorVida(List<Monstro> monstros) throws Exception {
         if (monstros.isEmpty()) throw new Exception();
 
-        Monstro alvo = monstros.getFirst();
+        Monstro alvo = monstros.get(0);
         for (Monstro monstro : monstros) if (monstro.getVida() < alvo.getVida()) alvo = monstro;
         return alvo;
     }
@@ -97,7 +97,7 @@ public class Turno {
     private Heroi escolherHeroiMenorVida(List<Heroi> herois) throws Exception {
         if (herois.isEmpty()) throw new Exception();
 
-        Heroi alvo = herois.getFirst();
+        Heroi alvo = herois.get(0);
         for (Heroi heroi : herois) if (heroi.getVida() < alvo.getVida()) alvo = heroi;
         return alvo;
     }

@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 import static Jogo.Jogo.log;
+import static Jogo.enums.ResultadoAtaque.*;
 
 public class Arqueiro extends Heroi {
 
@@ -40,12 +41,11 @@ public class Arqueiro extends Heroi {
 		double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
 
 		if (Math.random() > chanceDeAcerto) {
-			log.addLog(this.getNome() + " errou sua ação!");
+			log.addLog(ERROU.toString()+": "+this.getNome() + " errou sua ação!");
 			return;
 		}
 
-		this.armaPrincipal = escolherArmaMaisForte(TipoArma.obterArmasParaArqueiro());
-		log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
+		log.addLog(ACERTOU.toString()+": "+this.getNome() + " atacou " + monstro.getNome() + ".");
 
 		int escolha = RANDOM.nextInt(3);
 		switch (escolha) {
@@ -69,28 +69,19 @@ public class Arqueiro extends Heroi {
 
 	//--------------------- Ações de ataque --------------------
 
-	@Override
-	public TipoArma escolherArmaMaisForte(List<TipoArma> armas)  {
-		if (armas.isEmpty()) return null;
-
-		TipoArma armaForte = armas.getFirst();
-		for (TipoArma arma : armas) if (arma.getAtaque() > armaForte.getAtaque()) armaForte = arma;
-		return armaForte;
-	}
-
 	private void disparoComFlecha(Monstro monstro) {
-		System.out.println(this.getNome() + " dispara uma flecha com sua " + armaPrincipal.getNome() + "!");
+		log.addLog(this.getNome() + " dispara uma flecha com sua " + armaPrincipal.getNome() + "!");
 
 		int danoBase = this.getAtaque() + 5;
 		if (flechaCarregada) {
 			danoBase *= 1.5;
-			System.out.println("Flecha carregada! O ataque é mais forte!");
+			log.addLog("Flecha carregada! O ataque é mais forte!");
 			flechaCarregada = false;
 		}
 
 		if (Math.random() < 0.25) {
 			danoBase *= 2;
-			System.out.println("GOLPE CRÍTICO! A flecha perfura a armadura do inimigo!");
+			log.addLog(CRITICAL_HIT.toString()+"! A flecha perfura a armadura do inimigo!");
 		}
 
 		int danoFinal = danoBase - monstro.getDefesa();

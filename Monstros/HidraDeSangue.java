@@ -8,6 +8,8 @@ import Jogo.enums.TipoMonstro;
 import java.util.Random;
 
 import static Jogo.Jogo.log;
+import static Jogo.enums.ResultadoAtaque.ACERTOU;
+import static Jogo.enums.ResultadoAtaque.ERROU;
 
 public class HidraDeSangue extends Monstro{
     private int vidaMaxima;
@@ -45,11 +47,11 @@ public class HidraDeSangue extends Monstro{
         double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
 
         if (Math.random() > chanceDeAcerto) {
-            log.addLog(this.getNome() + " errou sua ação!");
+            log.addLog(ERROU.toString()+": "+this.getNome() + " errou sua ação!");
             return;
         }
 
-        log.addLog(this.getNome() + " atacou " + heroi.getNome() + ".");
+        log.addLog(ACERTOU.toString()+": "+this.getNome() + " atacou " + heroi.getNome() + ".");
 
         int escolha = RANDOM.nextInt(5);
         switch (escolha) {

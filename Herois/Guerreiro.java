@@ -7,6 +7,8 @@ import Jogo.enums.TipoHeroi;
 import java.util.List;
 
 import static Jogo.Jogo.log;
+import static Jogo.enums.ResultadoAtaque.ACERTOU;
+import static Jogo.enums.ResultadoAtaque.ERROU;
 
 public class Guerreiro extends Heroi {
 
@@ -39,11 +41,11 @@ public class Guerreiro extends Heroi {
         double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
 
         if (Math.random() > chanceDeAcerto) {
-            log.addLog(this.getNome() + " errou sua ação!");
+            log.addLog(ERROU.toString()+": "+this.getNome() + " errou sua ação!");
             return;
         }
-        this.armaPrincipal = escolherArmaMaisForte(TipoArma.obterArmasParaGuerreiro());
-        log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
+
+        log.addLog(ACERTOU.toString()+": "+this.getNome() + " atacou " + monstro.getNome() + ".");
 
         int escolha = RANDOM.nextInt(6);
         switch (escolha) {
@@ -70,15 +72,6 @@ public class Guerreiro extends Heroi {
     }
 
     //--------------------- Ações de ataque --------------------
-
-    @Override
-    public TipoArma escolherArmaMaisForte(List<TipoArma> armas)  {
-        if (armas.isEmpty()) return null;
-
-        TipoArma armaForte = armas.getFirst();
-        for (TipoArma arma : armas) if (arma.getAtaque() > armaForte.getAtaque()) armaForte = arma;
-        return armaForte;
-    }
 
     private void golpeDemolidor(Monstro monstro) {
         log.addLog(this.getNome() + " desfere um GOLPE DEMOLIDOR com sua " + armaPrincipal.getNome() + "!");

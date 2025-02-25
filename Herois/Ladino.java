@@ -9,6 +9,8 @@ import lombok.Setter;
 import java.util.List;
 
 import static Jogo.Jogo.log;
+import static Jogo.enums.ResultadoAtaque.ACERTOU;
+import static Jogo.enums.ResultadoAtaque.ERROU;
 
 @Getter
 @Setter
@@ -44,12 +46,12 @@ public class Ladino extends Heroi {
 		double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
 
 		if (Math.random() > chanceDeAcerto) {
-			log.addLog(this.getNome() + " errou sua ação!");
+			log.addLog(ERROU.toString()+": "+this.getNome() + " errou sua ação!");
 			return;
 		}
 
-		log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
-		this.armaPrincipal = escolherArmaMaisForte(TipoArma.obterArmasParaLadino());
+		log.addLog(ACERTOU.toString()+": "+this.getNome() + " atacou " + monstro.getNome() + ".");
+
 		int escolha = RANDOM.nextInt(5);
 		switch (escolha) {
 			case 0 -> golpePreciso(monstro);
@@ -73,15 +75,6 @@ public class Ladino extends Heroi {
 	}
 
 	//--------------------- Ações de ataque --------------------
-
-	@Override
-	public TipoArma escolherArmaMaisForte(List<TipoArma> armas)  {
-		if (armas.isEmpty()) return null;
-
-		TipoArma armaForte = armas.getFirst();
-		for (TipoArma arma : armas) if (arma.getAtaque() > armaForte.getAtaque()) armaForte = arma;
-		return armaForte;
-	}
 
 	private void ataqueRapido(Monstro monstro) {
 		log.addLog(getNome() + " realiza um ataque rápido com " + armaPrincipal.getNome() + "!");

@@ -17,6 +17,4 @@ public abstract class Heroi extends Personagem {
 
 	public abstract void realizarAcao(Monstro monstro) throws Exception;
 
-	public abstract TipoArma escolherArmaMaisForte(List<TipoArma> armas);
-
 }

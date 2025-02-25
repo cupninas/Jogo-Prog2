@@ -895,3 +895,1315 @@
 [2025-02-25 09:40:50] Arqueiro ataca normalmente!
 [2025-02-25 09:40:50] Arqueiro sofreu 250 de dano!
 [2025-02-25 09:40:50] Arqueiro foi derrotado!
+[2025-02-25 16:36:56] Jogo iniciado com dificuldade: MEDIO
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 1 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago lança uma RAJADA ARCANA!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 54 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 2 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago começou a acumular energia mágica!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:56] Mago utilizou mana reservada para anular o dano!
+[2025-02-25 16:36:56] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 16:36:56] Mago recebeu 248 de dano do abismo!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 3 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago conjura uma EXPLOSÃO ELEMENTAL!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 54 de dano!
+[2025-02-25 16:36:56] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 4 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago lança uma RAJADA ARCANA!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 54 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 5 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago lança uma RAJADA ARCANA!
+[2025-02-25 16:36:56] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 6 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago começou a acumular energia mágica!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:56] Mago utilizou mana reservada para anular o dano!
+[2025-02-25 16:36:56] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 16:36:56] Mago recebeu 248 de dano do abismo!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 7 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago lança uma RAJADA ARCANA!
+[2025-02-25 16:36:56] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 8 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago lança múltiplas SETAS MÍSTICAS!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 27 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 27 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 27 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 9 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago começou a acumular energia mágica!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:56] Mago utilizou mana reservada para anular o dano!
+[2025-02-25 16:36:56] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 16:36:56] Mago recebeu 248 de dano do abismo!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 10 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago lança múltiplas SETAS MÍSTICAS!
+[2025-02-25 16:36:56] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 27 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 27 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 11 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago lança uma RAJADA ARCANA!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 54 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:56] Mago sofreu 170 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 12 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago começou a acumular energia mágica!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 13 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago lança uma RAJADA ARCANA!
+[2025-02-25 16:36:56] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 69 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 14 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago conjura uma EXPLOSÃO ELEMENTAL!
+[2025-02-25 16:36:56] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:56] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 15 -------------------------------
+[2025-02-25 16:36:56] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Mago dispara um RAIO DESINTEGRADOR!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 54 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:56] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:56] Mago sofreu 248 de dano!
+[2025-02-25 16:36:56] Mago recebeu 248 de dano do abismo!
+[2025-02-25 16:36:56] Mago foi derrotado!
+[2025-02-25 16:36:56] ------------------------------ INICIO DO TURNO 16 -------------------------------
+[2025-02-25 16:36:56] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:56] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:36:56] GOLPE CRÍTICO! A flecha perfura a armadura do inimigo!
+[2025-02-25 16:36:56] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:56] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 17 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:36:57] GOLPE CRÍTICO! A flecha perfura a armadura do inimigo!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:57] Arqueiro sofreu 170 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 18 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Arqueiro recebeu 251 de dano do abismo!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 19 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 20 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Arqueiro recebeu 251 de dano do abismo!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 21 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 22 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 23 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 24 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 25 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 26 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 27 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 28 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 29 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:57] Arqueiro sofreu 170 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 30 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Arqueiro sofreu 251 de dano!
+[2025-02-25 16:36:57] Arqueiro recebeu 251 de dano do abismo!
+[2025-02-25 16:36:57] Arqueiro foi derrotado!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 31 -------------------------------
+[2025-02-25 16:36:57] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Mago conjura uma EXPLOSÃO ELEMENTAL!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 64 de dano!
+[2025-02-25 16:36:57] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Mago sofreu 245 de dano!
+[2025-02-25 16:36:57] Mago recebeu 245 de dano do abismo!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 32 -------------------------------
+[2025-02-25 16:36:57] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Mago dispara um RAIO DESINTEGRADOR!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 64 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Mago sofreu 245 de dano!
+[2025-02-25 16:36:57] Mago recebeu 245 de dano do abismo!
+[2025-02-25 16:36:57] Mago foi derrotado!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 33 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:36:57] GOLPE CRÍTICO! A flecha perfura a armadura do inimigo!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 34 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:36:57] GOLPE CRÍTICO! A flecha perfura a armadura do inimigo!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 35 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 36 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Arqueiro sofreu 246 de dano!
+[2025-02-25 16:36:57] Arqueiro recebeu 246 de dano do abismo!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 37 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 38 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 39 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 40 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 41 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:36:57] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Arqueiro recebeu 246 de dano do abismo!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 42 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 43 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Arqueiro recebeu 246 de dano do abismo!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 44 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:36:57] GOLPE CRÍTICO! A flecha perfura a armadura do inimigo!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:57] Arqueiro sofreu 170 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 45 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:36:57] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:36:57] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu 17 de vida com o ataque!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 46 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 47 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 48 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:36:57] Flecha carregada! O ataque é mais forte!
+[2025-02-25 16:36:57] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:36:57] ------------------------------ INICIO DO TURNO 49 -------------------------------
+[2025-02-25 16:36:57] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:36:57] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:36:57] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:36:57] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:36:57] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:36:57] Arqueiro sofreu 246 de dano!
+[2025-02-25 16:36:57] Arqueiro recebeu 246 de dano do abismo!
+[2025-02-25 16:36:57] Arqueiro foi derrotado!
+[2025-02-25 16:42:20] Jogo iniciado com dificuldade: MEDIO
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 1 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro ataca de longe com sua Espada Longa, mantendo distância!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 2 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro ataca de longe com sua Espada Longa, mantendo distância!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 3 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro balança seu Espada Longa com força total!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu um golpe brutal de 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 4 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro ataca de longe com sua Espada Longa, mantendo distância!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:42:20] Guerreiro sofreu 164 de dano!
+[2025-02-25 16:42:20] Guerreiro recebeu 164 de dano do abismo!
+[2025-02-25 16:42:20] Guerreiro foi derrotado!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 5 -------------------------------
+[2025-02-25 16:42:20] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:42:20] Arqueiro sofreu 164 de dano!
+[2025-02-25 16:42:20] Arqueiro recebeu 164 de dano do abismo!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 6 -------------------------------
+[2025-02-25 16:42:20] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 7 -------------------------------
+[2025-02-25 16:42:20] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:42:20] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 8 -------------------------------
+[2025-02-25 16:42:20] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:42:20] GOLPE CRÍTICO! A flecha perfura a armadura do inimigo!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:42:20] Arqueiro sofreu 164 de dano!
+[2025-02-25 16:42:20] Arqueiro recebeu 164 de dano do abismo!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 9 -------------------------------
+[2025-02-25 16:42:20] Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 10 -------------------------------
+[2025-02-25 16:42:20] Arqueiro errou sua ação!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Arqueiro sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] Arqueiro foi derrotado!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 11 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino ataca com sua Espada Curta!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Ladino sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 12 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino realiza um ataque rápido com Espada Curta!
+[2025-02-25 16:42:20] GOLPE CRÍTICO!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Ladino sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 13 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino realiza um ataque rápido com Espada Curta!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:42:20] Ladino sofreu 163 de dano!
+[2025-02-25 16:42:20] Ladino recebeu 163 de dano do abismo!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 14 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino realiza um ataque rápido com Espada Curta!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 15 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino ataca das sombras com sua Espada Curta!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 48 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 16 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino se escondeu nas sombras!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 17 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino desfere um golpe preciso com sua Espada Curta!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 18 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino realiza um ataque rápido com Espada Curta!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 19 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino realiza um ataque rápido com Espada Curta!
+[2025-02-25 16:42:20] GOLPE CRÍTICO!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:42:20] Ladino evitou completamente o ataque ao permanecer nas sombras!
+[2025-02-25 16:42:20] Ladino foi revelado e saiu das sombras!
+[2025-02-25 16:42:20] Ladino recebeu 163 de dano do abismo!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 20 -------------------------------
+[2025-02-25 16:42:20] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Ladino desfere um golpe preciso com sua Espada Curta!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Ladino sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] Ladino foi derrotado!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 21 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro golpeia com sua Espada Bastarda e tenta atordoar o inimigo!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 22 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro corta rapidamente com sua Espada Bastarda!
+[2025-02-25 16:42:20] GOLPE CRÍTICO!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 23 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro corta rapidamente com sua Espada Bastarda!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 24 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:42:20] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 16:42:20] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 16:42:20] Guerreiro recebeu 156 de dano do abismo!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 25 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 26 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro balança seu Espada Bastarda com força total!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu um golpe brutal de 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:42:20] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 16:42:20] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 16:42:20] Guerreiro recebeu 156 de dano do abismo!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 27 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:42:20] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 16:42:20] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 16:42:20] Guerreiro recebeu 156 de dano do abismo!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 28 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 29 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro balança seu Espada Bastarda com força total!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu um golpe brutal de 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 16:42:20] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 30 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro golpeia com sua Espada Bastarda e tenta atordoar o inimigo!
+[2025-02-25 16:42:20] Cavaleiro do Vazio foi ATORDOADO!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Guerreiro sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 31 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro golpeia com sua Espada Bastarda e tenta atordoar o inimigo!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Guerreiro sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 32 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro corta rapidamente com sua Espada Bastarda!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Guerreiro sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 33 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 34 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro desfere um GOLPE DEMOLIDOR com sua Espada Bastarda!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:42:20] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 16:42:20] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 35 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro golpeia com sua Espada Bastarda e tenta atordoar o inimigo!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Guerreiro sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 36 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro balança seu Espada Bastarda com força total!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu um golpe brutal de 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Guerreiro sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] ------------------------------ INICIO DO TURNO 37 -------------------------------
+[2025-02-25 16:42:20] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:42:20] Guerreiro corta rapidamente com sua Espada Bastarda!
+[2025-02-25 16:42:20] GOLPE CRÍTICO!
+[2025-02-25 16:42:20] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:42:20] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:42:20] Guerreiro sofreu 110 de dano!
+[2025-02-25 16:42:20] Cavaleiro do Vazio absorveu 11 de vida com o ataque!
+[2025-02-25 16:42:20] Guerreiro foi derrotado!
+[2025-02-25 16:52:35] Jogo iniciado com dificuldade: MEDIO
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 1 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Ladino ataca com sua Machadinha!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 16:52:35] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:52:35] Ladino sofreu 490 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu 49 de vida com o ataque!
+[2025-02-25 16:52:35] Ladino foi derrotado!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 2 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 3 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:52:35] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:52:35] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu 49 de vida com o ataque!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 4 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 5 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:52:35] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:52:35] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu 49 de vida com o ataque!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 6 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 7 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:52:35] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:52:35] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:52:35] Arqueiro recebeu 730 de dano do abismo!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 8 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 9 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:52:35] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:52:35] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu 49 de vida com o ataque!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 10 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 11 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:52:35] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:52:35] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu 49 de vida com o ataque!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 12 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:52:35] Arqueiro sofreu 730 de dano!
+[2025-02-25 16:52:35] Arqueiro recebeu 730 de dano do abismo!
+[2025-02-25 16:52:35] Arqueiro foi derrotado!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 13 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro ataca de longe com sua Espada Longa, mantendo distância!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 14 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro golpeia com sua Espada Longa e tenta atordoar o inimigo!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:52:35] Guerreiro sofreu 490 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu 49 de vida com o ataque!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 15 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro ataca de longe com sua Espada Longa, mantendo distância!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 16 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 17 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro balança seu Espada Longa com força total!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu um golpe brutal de 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:52:35] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 16:52:35] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 16:52:35] Guerreiro recebeu 730 de dano do abismo!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 18 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro golpeia com sua Espada Longa e tenta atordoar o inimigo!
+[2025-02-25 16:52:35] Cavaleiro do Vazio foi ATORDOADO!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 19 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro desfere um GOLPE DEMOLIDOR com sua Espada Longa!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 20 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 21 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro já está em fúria!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 22 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro desfere um GOLPE DEMOLIDOR com sua Espada Longa!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:52:35] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 16:52:35] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 16:52:35] Guerreiro recebeu 730 de dano do abismo!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 23 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Guerreiro desfere um GOLPE DEMOLIDOR com sua Espada Longa!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:52:35] Guerreiro sofreu 729 de dano!
+[2025-02-25 16:52:35] Guerreiro recebeu 729 de dano do abismo!
+[2025-02-25 16:52:35] Guerreiro foi derrotado!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 24 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:52:35] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:52:35] Arqueiro sofreu 490 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu 49 de vida com o ataque!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 25 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Abominação da Carne.
+[2025-02-25 16:52:35] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:52:35] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 16:52:35] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 16:52:35] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 16:52:35] ACERTOU: Abominação da Carne atacou Arqueiro.
+[2025-02-25 16:52:35] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 26 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Abominação da Carne.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] ACERTOU: Abominação da Carne atacou Arqueiro.
+[2025-02-25 16:52:35] Abominação da Carne já está com o Corpo Remendado ativo!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 27 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Abominação da Carne.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] ACERTOU: Abominação da Carne atacou Arqueiro.
+[2025-02-25 16:52:35] Abominação da Carne já está com o Corpo Remendado ativo!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 28 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Abominação da Carne.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] ACERTOU: Abominação da Carne atacou Arqueiro.
+[2025-02-25 16:52:35] Abominação da Carne usa ESMAGAR!
+[2025-02-25 16:52:35] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:52:35] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:52:35] Arqueiro recebeu 160 de dano!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 29 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Abominação da Carne.
+[2025-02-25 16:52:35] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:52:35] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 16:52:35] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 16:52:35] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 16:52:35] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 16:52:35] ACERTOU: Abominação da Carne atacou Arqueiro.
+[2025-02-25 16:52:35] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 28 de HP!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 30 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Abominação da Carne.
+[2025-02-25 16:52:35] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:52:35] ACERTOU: Abominação da Carne atacou Arqueiro.
+[2025-02-25 16:52:35] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 28 de HP!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 31 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 16:52:35] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:52:35] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:52:35] Arqueiro recebeu 732 de dano do abismo!
+[2025-02-25 16:52:35] ------------------------------ INICIO DO TURNO 32 -------------------------------
+[2025-02-25 16:52:35] ACERTOU: Arqueiro atacou Cavaleiro do Vazio.
+[2025-02-25 16:52:35] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:52:35] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio atacou Arqueiro.
+[2025-02-25 16:52:35] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 16:52:35] Arqueiro sofreu 490 de dano!
+[2025-02-25 16:52:35] Cavaleiro do Vazio absorveu 49 de vida com o ataque!
+[2025-02-25 16:52:35] Arqueiro foi derrotado!
+[2025-02-25 16:54:49] Jogo iniciado com dificuldade: MEDIO
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 1 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Ladino realiza um ataque rápido com Adaga!
+[2025-02-25 16:54:49] GOLPE CRÍTICO!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Ladino!
+[2025-02-25 16:54:49] GOLPE CRÍTICO! O golpe do Colosso causa destruição massiva!
+[2025-02-25 16:54:49] Ladino sofreu 247 de dano!
+[2025-02-25 16:54:49] Ladino recebeu 247 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 2 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Ladino ataca das sombras com sua Adaga!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 39 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 3 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Ladino ataca das sombras com sua Adaga!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 24 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] A pedra atinge a cabeça de Ladino, causando um atordoamento!
+[2025-02-25 16:54:49] Ladino sofreu 107 de dano!
+[2025-02-25 16:54:49] Ladino recebeu 107 de dano!
+[2025-02-25 16:54:49] Ladino foi derrotado!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 4 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro sofreu 100 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 100 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 5 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 6 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 7 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:54:49] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:54:49] Arqueiro recebeu 100 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 8 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Arqueiro!
+[2025-02-25 16:54:49] GOLPE CRÍTICO! O golpe do Colosso causa destruição massiva!
+[2025-02-25 16:54:49] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:54:49] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:54:49] Arqueiro recebeu 240 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 9 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 10 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro sofreu 100 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 100 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 11 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] CRITICAL_HIT! A flecha perfura a armadura do inimigo!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro sofreu 100 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 100 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 12 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 13 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] A pedra atinge a cabeça de Arqueiro, causando um atordoamento!
+[2025-02-25 16:54:49] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:54:49] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:54:49] Arqueiro recebeu 100 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 14 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 15 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 16 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Arqueiro!
+[2025-02-25 16:54:49] Arqueiro sofreu 100 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 100 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 17 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 18 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] Flecha carregada! O ataque é mais forte!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro sofreu 100 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 100 de dano!
+[2025-02-25 16:54:49] Arqueiro foi derrotado!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 19 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Arqueiro!
+[2025-02-25 16:54:49] Arqueiro sofreu 97 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 97 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 20 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 21 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:54:49] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:54:49] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:54:49] Arqueiro recebeu 97 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 22 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 23 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Arqueiro!
+[2025-02-25 16:54:49] Arqueiro sofreu 97 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 97 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 24 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 25 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 26 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Arqueiro!
+[2025-02-25 16:54:49] Arqueiro sofreu 97 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 97 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 27 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 28 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 29 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 30 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 31 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] A pedra atinge a cabeça de Arqueiro, causando um atordoamento!
+[2025-02-25 16:54:49] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 16:54:49] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 16:54:49] Arqueiro recebeu 97 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 32 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Sabre!
+[2025-02-25 16:54:49] CRITICAL_HIT! A flecha perfura a armadura do inimigo!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Arqueiro!
+[2025-02-25 16:54:49] Arqueiro sofreu 97 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 97 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 33 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 16:54:49] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro sofreu 97 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 97 de dano!
+[2025-02-25 16:54:49] Arqueiro foi derrotado!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 34 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Arqueiro!
+[2025-02-25 16:54:49] Arqueiro sofreu 96 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 96 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 35 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro sofreu 96 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 96 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 36 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 37 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 38 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro sofreu 96 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 96 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 39 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 40 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 41 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 42 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro dispara uma flecha com sua Tridente!
+[2025-02-25 16:54:49] Flecha carregada! O ataque é mais forte!
+[2025-02-25 16:54:49] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 16:54:49] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 16:54:49] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 16:54:49] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva desfere um golpe esmagador contra Arqueiro!
+[2025-02-25 16:54:49] Arqueiro sofreu 96 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 96 de dano!
+[2025-02-25 16:54:49] ------------------------------ INICIO DO TURNO 43 -------------------------------
+[2025-02-25 16:54:49] ACERTOU: Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 16:54:49] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 16:54:49] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 16:54:49] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 16:54:49] ACERTOU: Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 16:54:49] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 16:54:49] Arqueiro sofreu 96 de dano!
+[2025-02-25 16:54:49] Arqueiro recebeu 96 de dano!
+[2025-02-25 16:54:49] Arqueiro foi derrotado!

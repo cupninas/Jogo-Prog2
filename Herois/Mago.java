@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Random;
 
 import static Jogo.Jogo.log;
+import static Jogo.enums.ResultadoAtaque.ACERTOU;
+import static Jogo.enums.ResultadoAtaque.ERROU;
 
 public class Mago extends Heroi {
 	// Construtor principal com todos os atributos
@@ -24,7 +26,7 @@ public class Mago extends Heroi {
 		super("Mago", 500, 30, 50, 20, TipoHeroi.MAGO);
 
 		List<TipoArma> armasMago = TipoArma.obterArmasParaMago();
-		this.armaPrincipal = armasMago.getFirst();
+		this.armaPrincipal = armasMago.get(RANDOM.nextInt(armasMago.size()));
 		this.ataque = TipoHeroi.MAGO.getAtaque()+this.armaPrincipal.getAtaque();
 	}
 
@@ -39,11 +41,11 @@ public class Mago extends Heroi {
 		double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
 
 		if (Math.random() > chanceDeAcerto) {
-			log.addLog(this.getNome() + " errou sua ação!");
+			log.addLog(ERROU.toString()+": "+this.getNome() + " errou sua ação!");
 			return;
 		}
 
-		log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
+		log.addLog(ACERTOU.toString()+": "+this.getNome() + " atacou " + monstro.getNome() + ".");
 
 		int escolha = RANDOM.nextInt(5);
 		switch (escolha) {
@@ -118,17 +120,6 @@ public class Mago extends Heroi {
 	public void desativarManaReservada() {
 		this.manaReservada = false;
 		log.addLog(getNome() + " dispersou sua energia mágica acumulada.");
-	}
-
-	//--------------------- Escolha da Arma --------------------
-
-	@Override
-	public TipoArma escolherArmaMaisForte(List<TipoArma> armas)  {
-		if (armas.isEmpty()) return null;
-
-		TipoArma armaForte = armas.getFirst();
-		for (TipoArma arma : armas) if (arma.getAtaque() > armaForte.getAtaque()) armaForte = arma;
-		return armaForte;
 	}
 
 }
