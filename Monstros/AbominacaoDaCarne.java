@@ -44,6 +44,7 @@ public class AbominacaoDaCarne extends Monstro {
     @Override
     public void realizarAcao(Heroi heroi) throws Exception {
         //TODO - realizar algum dos ataques de forma randomica
+        //add log aq
         Random random = new Random();
         int escolha = random.nextInt(4);
         switch (escolha) {
@@ -64,11 +65,6 @@ public class AbominacaoDaCarne extends Monstro {
         if (dano < 0) dano = 0;
         this.vida -= dano;
         log.addLog(getNome() + " sofreu " + dano + " de dano!");
-    }
-
-    @Override
-    public void comecarNovoTurno() {
-        desativarCorpoRemendado();
     }
 
     //--------------------- Ações de ataque --------------------

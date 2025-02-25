@@ -7,6 +7,8 @@ import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
 
+import static Jogo.Jogo.log;
+
 public class EspectroDaAgonia extends Monstro {
 
     public EspectroDaAgonia(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
@@ -51,17 +53,13 @@ public class EspectroDaAgonia extends Monstro {
 
     @Override
     public void sofrerDano(int dano) {
-        //TODO - verifica se os alguns dos atributos de "escudo" estao true, senao, tenta realizar o dano. - ivan
-        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui - ivan
         if (intangivelAtivo) {
-            System.out.println(nome + " se tornou etéreo e evitou completamente o ataque!");
+            log.addLog(nome + " se tornou etéreo e evitou completamente o ataque!");
             intangivelAtivo = false;
-            return;
+        } else {
+            this.vida -= dano;
+            log.addLog(getNome() + " sofreu " + dano + " de dano!");
         }
-        //TODO - se nenhum dos atributos forem true, tenta executar a acao, - ivan
-        this.vida -= dano;
-
-        //sempre que comecar um turno novo, realizar os metodos de desativacao de escudo, como -> desativarIntangibilidade
     }
 
     @Override

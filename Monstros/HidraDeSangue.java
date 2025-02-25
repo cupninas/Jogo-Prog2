@@ -7,8 +7,10 @@ import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
 
+import static Jogo.Jogo.log;
+
 public class HidraDeSangue extends Monstro{
-    private int vidaMaxima = 250;
+    private int vidaMaxima;
 
     public HidraDeSangue(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
         super("Hidra de Sangue",
@@ -18,7 +20,7 @@ public class HidraDeSangue extends Monstro{
                 destreza*dificuldade.getDificuldade(),
                 velocidade*dificuldade.getDificuldade(),
                 TipoMonstro.HIDRA_DE_SANGUE);
-        this.vidaMaxima = vida;
+        this.vidaMaxima = vida*dificuldade.getDificuldade();
     }
 
     public HidraDeSangue(TipoDificuldade dificuldade) {
@@ -29,7 +31,7 @@ public class HidraDeSangue extends Monstro{
                 10*dificuldade.getDificuldade(),
                 7*dificuldade.getDificuldade(),
                 TipoMonstro.HIDRA_DE_SANGUE);
-        this.vidaMaxima = 250;
+        this.vidaMaxima = 250*dificuldade.getDificuldade();
     }
 
     //--------------------- Atributos escudos --------------------
@@ -55,9 +57,11 @@ public class HidraDeSangue extends Monstro{
 
     @Override
     public void sofrerDano(int dano) {
-        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui
-        //aqui nao tem esses atributos escudos, nao precisa fazer a verificacao
-        //TODO - se nenhum dos atributos forem true, tenta executar a acao,
+        // Se a Hidra estiver com cabeças novas crescendo e recuperar a vida, desativa o efeito
+        if (cabecasCortadasCrescendo && this.vida > (vidaMaxima * 0.5)) {
+            log.addLog(getNome() + " se fortaleceu! As novas cabeças já cresceram completamente. O ataque foi ineficiente!");
+            cabecasCortadasCrescendo = false;
+        }
         this.vida -= dano;
     }
 

@@ -31,5 +31,4 @@ public abstract class Personagem {
 	public boolean estaVivo() {
 		return this.vida > 0;
 	}
-	public abstract void comecarNovoTurno();
 }
