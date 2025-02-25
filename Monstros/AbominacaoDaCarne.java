@@ -4,7 +4,6 @@ import Jogo.Herois.*;
 import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
-import java.util.Random;
 
 import static Jogo.Jogo.log;
 
