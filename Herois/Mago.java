@@ -10,9 +10,6 @@ import java.util.Random;
 import static Jogo.Jogo.log;
 
 public class Mago extends Heroi {
-
-	private boolean manaReservada = false;
-
 	// Construtor principal com todos os atributos
 	public Mago(int vida, int defesa, int destreza, int velocidade) {
 		super("Mago", vida, defesa, destreza, velocidade, TipoHeroi.MAGO);
@@ -31,6 +28,12 @@ public class Mago extends Heroi {
 		this.ataque = TipoHeroi.MAGO.getAtaque()+this.armaPrincipal.getAtaque();
 	}
 
+	//--------------------- Atributos escudos --------------------
+
+	private boolean manaReservada = false;
+
+	//--------------------- Factories --------------------
+
 	@Override
 	public void realizarAcao(Monstro monstro) throws Exception {
 		//TODO - realizar algum dos ataques de forma randomica
@@ -48,8 +51,16 @@ public class Mago extends Heroi {
 
 	@Override
 	public void sofrerDano(int dano) {
-
+		if (manaReservada) {
+			log.addLog(this.getNome() + " utilizou mana reservada para anular o dano!");
+			desativarManaReservada();
+		} else {
+			this.vida -= dano;
+			log.addLog(this.getNome() + " sofreu " + dano + " de dano!");
+		}
 	}
+
+	//--------------------- Ações de ataque --------------------
 
 	private void rajadaArcana(Monstro monstro) {
 		log.addLog(getNome() + " lança uma RAJADA ARCANA!");

@@ -57,7 +57,15 @@ public class Ladino extends Heroi {
 	}
 
 	@Override
-	public void sofrerDano(int dano) {}
+	public void sofrerDano(int dano) {
+		if (ocultoNasSombras) {
+			log.addLog(this.getNome() + " evitou completamente o ataque ao permanecer nas sombras!");
+			desativarFurtividade();
+		} else {
+			this.vida -= dano;
+			log.addLog(this.getNome() + " sofreu " + dano + " de dano!");
+		}
+	}
 
 	//--------------------- Ações de ataque --------------------
 
