@@ -60,7 +60,10 @@ public class HidraDeSangue extends Monstro{
         // Se a Hidra estiver com cabeças novas crescendo e recuperar a vida, desativa o efeito
         if (cabecasCortadasCrescendo && this.vida > (vidaMaxima * 0.5)) {
             log.addLog(getNome() + " se fortaleceu! As novas cabeças já cresceram completamente. O ataque foi ineficiente!");
-            cabecasCortadasCrescendo = false;
+            concluirRegeneracaoDeCabecas();
+        } else {
+            this.vida -= dano;
+            log.addLog(getNome() + " sofreu " + dano + " de dano!");
         }
         this.vida -= dano;
     }
@@ -120,8 +123,6 @@ public class HidraDeSangue extends Monstro{
             cabecasCortadasCrescendo = false;
             this.ataque += 5; // Com mais cabeças, o ataque aumenta
             log.addLog(this.getNome() + " regenerou suas cabeças cortadas! Agora ficou ainda mais feroz!");
-        } else {
-            log.addLog(this.getNome() + " não tem cabeças cortadas para regenerar.");
         }
     }
 

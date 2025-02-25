@@ -53,7 +53,10 @@ public class CavaleiroDoVazio extends Monstro{
 
     @Override
     public void sofrerDano(int dano) {
-        if (vazioEternoAtivo) log.addLog(getNome() + " absorveu o ataque com o VAZIO ETERNO e não sofreu dano!");
+        if (vazioEternoAtivo) {
+            log.addLog(getNome() + " absorveu o ataque com o VAZIO ETERNO e não sofreu dano!");
+            desativarVazioEterno();
+        }
         else {
             this.vida -= dano;
             log.addLog(getNome() + " sofreu " + dano + " de dano!");

@@ -55,7 +55,7 @@ public class EspectroDaAgonia extends Monstro {
     public void sofrerDano(int dano) {
         if (intangivelAtivo) {
             log.addLog(nome + " se tornou etéreo e evitou completamente o ataque!");
-            intangivelAtivo = false;
+            desativarIntangibilidade();
         } else {
             this.vida -= dano;
             log.addLog(getNome() + " sofreu " + dano + " de dano!");
