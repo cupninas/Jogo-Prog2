@@ -1,0 +1,384 @@
+[2025-02-25 01:50:15] Jogo iniciado com dificuldade: MEDIO
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 1 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca das sombras com sua Adaga!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 39 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Ladino sofreu 120 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 2 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca das sombras com sua Adaga!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 39 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 3 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca das sombras com sua Adaga!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 27 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 4 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca das sombras com sua Adaga!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 39 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 5 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino se escondeu nas sombras!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 6 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino realiza um ataque rápido com Adaga!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Ladino evitou completamente o ataque ao permanecer nas sombras!
+[2025-02-25 01:50:15] Ladino foi revelado e saiu das sombras!
+[2025-02-25 01:50:15] Ladino recebeu 174 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 7 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca com sua Adaga!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Ladino sofreu 120 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 8 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca das sombras com sua Adaga!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 39 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 9 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino desfere um golpe preciso com sua Adaga!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Ladino sofreu 120 de dano!
+[2025-02-25 01:50:15] Ladino foi derrotado!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 10 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino se escondeu nas sombras!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 11 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca com sua Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Ladino evitou completamente o ataque ao permanecer nas sombras!
+[2025-02-25 01:50:15] Ladino foi revelado e saiu das sombras!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 12 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino realiza um ataque rápido com Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 13 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino se escondeu nas sombras!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 14 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca com sua Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 15 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino desfere um golpe preciso com sua Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 16 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino realiza um ataque rápido com Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Ladino evitou completamente o ataque ao permanecer nas sombras!
+[2025-02-25 01:50:15] Ladino foi revelado e saiu das sombras!
+[2025-02-25 01:50:15] Ladino recebeu 167 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 17 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca com sua Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 18 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca das sombras com sua Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 31 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 19 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca com sua Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Ladino sofreu 120 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 20 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca com sua Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Ladino sofreu 167 de dano!
+[2025-02-25 01:50:15] Ladino recebeu 167 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 21 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino realiza um ataque rápido com Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Ladino sofreu 120 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 22 -------------------------------
+[2025-02-25 01:50:15] Ladino atacou Abominação da Carne.
+[2025-02-25 01:50:15] Ladino ataca das sombras com sua Machadinha!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 45 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Ladino.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Ladino sofreu 120 de dano!
+[2025-02-25 01:50:15] Ladino foi derrotado!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 23 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 24 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 25 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro sofreu 167 de dano!
+[2025-02-25 01:50:15] Arqueiro recebeu 167 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 26 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] Arqueiro recebeu 167 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 27 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 28 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Arqueiro sofreu 120 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 29 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] Arqueiro recebeu 167 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 30 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Arqueiro sofreu 120 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 31 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 32 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 33 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 34 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 35 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 36 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne já está com o Corpo Remendado ativo!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 37 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 38 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro sofreu 167 de dano!
+[2025-02-25 01:50:15] Arqueiro recebeu 167 de dano!
+[2025-02-25 01:50:15] Arqueiro foi derrotado!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 39 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 40 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 41 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] Arqueiro recebeu 179 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 42 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] Arqueiro recebeu 179 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 43 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 44 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 45 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro sofreu 179 de dano!
+[2025-02-25 01:50:15] Arqueiro recebeu 179 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 46 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro sofreu 179 de dano!
+[2025-02-25 01:50:15] Arqueiro recebeu 179 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 47 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ativa REGENERAÇÃO PROFANA e recupera 37 de HP!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 48 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne costura sua carne retorcida e fortalece sua defesa!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 49 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 01:50:15] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 01:50:15] Arqueiro recebeu 179 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 50 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Abominação da Carne usa seu CORPO REMENDADO para reduzir o impacto do golpe!
+[2025-02-25 01:50:15] Abominação da Carne começa a se decompor novamente... Corpo Remendado foi desativado!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne ataca com um soco brutal!
+[2025-02-25 01:50:15] Arqueiro sofreu 120 de dano!
+[2025-02-25 01:50:15] ------------------------------ INICIO DO TURNO 51 -------------------------------
+[2025-02-25 01:50:15] Arqueiro atacou Abominação da Carne.
+[2025-02-25 01:50:15] Arqueiro desfere ataques rápidos com sua Tridente!
+[2025-02-25 01:50:15] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 01:50:15] Abominação da Carne sofreu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne recebeu 0 de dano!
+[2025-02-25 01:50:15] Abominação da Carne atacou Arqueiro.
+[2025-02-25 01:50:15] Abominação da Carne usa ESMAGAR!
+[2025-02-25 01:50:15] Arqueiro sofreu 179 de dano!
+[2025-02-25 01:50:15] Arqueiro recebeu 179 de dano!
+[2025-02-25 01:50:15] Arqueiro foi derrotado!
