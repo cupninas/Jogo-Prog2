@@ -8,8 +8,8 @@ import java.util.Random;
 
 public class ColossoDePedraViva extends Monstro{
 
-    public ColossoDePedraViva(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
-        super(nome,
+    public ColossoDePedraViva(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super("Colosso de Pedra Viva",
                 vida*dificuldade.getDificuldade(),
                 ataque*dificuldade.getDificuldade(),
                 defesa*dificuldade.getDificuldade(),

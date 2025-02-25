@@ -10,8 +10,8 @@ public class AbominacaoDaCarne extends Monstro {
 
     private int vidaMaxima;
 
-    public AbominacaoDaCarne(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
-        super(nome,
+    public AbominacaoDaCarne(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super("Abominação da Carne",
                 vida*dificuldade.getDificuldade(),
                 ataque*dificuldade.getDificuldade(),
                 defesa*dificuldade.getDificuldade(),

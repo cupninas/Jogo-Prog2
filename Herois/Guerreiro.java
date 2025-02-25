@@ -9,8 +9,8 @@ import java.util.List;
 public class Guerreiro extends Heroi {
 
     // Construtor principal com todos os atributos
-    public Guerreiro(String nome, int vida, int defesa, int destreza, int velocidade) {
-        super(nome, vida, defesa, destreza, velocidade, TipoHeroi.GUERREIRO);
+    public Guerreiro(int vida, int defesa, int destreza, int velocidade) {
+        super("Guerreiro", vida, defesa, destreza, velocidade, TipoHeroi.GUERREIRO);
 
         List<TipoArma> armasGuerreiro = TipoArma.obterArmasParaGuerreiro();
         this.armaPrincipal = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));

@@ -12,8 +12,8 @@ public class Mago extends Heroi {
 	private boolean manaReservada = false;
 
 	// Construtor principal com todos os atributos
-	public Mago(String nome, int vida, int defesa, int destreza, int velocidade) {
-		super(nome, vida, defesa, destreza, velocidade, TipoHeroi.MAGO);
+	public Mago(int vida, int defesa, int destreza, int velocidade) {
+		super("Mago", vida, defesa, destreza, velocidade, TipoHeroi.MAGO);
 
 		List<TipoArma> armasMago = TipoArma.obterArmasParaMago();
 		this.armaPrincipal = armasMago.get(RANDOM.nextInt(armasMago.size()));

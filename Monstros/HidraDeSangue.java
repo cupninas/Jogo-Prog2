@@ -9,8 +9,8 @@ import java.util.Random;
 public class HidraDeSangue extends Monstro{
     private int vidaMaxima = 250;
 
-    public HidraDeSangue(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
-        super(nome,
+    public HidraDeSangue(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super("Hidra de Sangue",
                 vida*dificuldade.getDificuldade(),
                 ataque*dificuldade.getDificuldade(),
                 defesa*dificuldade.getDificuldade(),

@@ -14,6 +14,7 @@ public class Jogo {
     private List<Monstro> monstros = new ArrayList<>();
     private Log log = new Log();
     private TipoDificuldade dificuldade;
+    private static Random random = new Random();
 
     public Jogo(TipoDificuldade dificuldade, int quantidadeHerois, int quantidadeMonstros) throws Exception {
         this.dificuldade = dificuldade;
@@ -31,8 +32,12 @@ public class Jogo {
     }
 
     private Monstro gerarMonstroAleatorio(TipoDificuldade dificuldade) throws Exception {
-        Random random = new Random();
         int escolha = random.nextInt(5);
+        int vida = random.nextInt(500)+100;
+        int ataque = random.nextInt(50)+5;
+        int defesa = random.nextInt(50)+5;
+        int destreza = random.nextInt(50)+5;
+        int velocidade = random.nextInt(50)+5;
         return switch (escolha) {
             case 0 -> new AbominacaoDaCarne(dificuldade);
             case 1 -> new CavaleiroDoVazio(dificuldade);
@@ -43,8 +48,7 @@ public class Jogo {
         };
     }
 
-    private Heroi gerarHeroiAleatorio() throws Exception {
-        Random random = new Random();
+    private static Heroi gerarHeroiAleatorio() throws Exception {
         int escolha = random.nextInt(4);
         return switch (escolha) {
             case 0 -> new Arqueiro();

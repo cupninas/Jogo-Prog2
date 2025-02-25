@@ -10,9 +10,8 @@ import java.util.Random;
 public class Arqueiro extends Heroi {
 
 	// Construtor principal com todos os atributos
-	public Arqueiro(String nome, int vida, int defesa, int destreza, int velocidade) {
-		// TODO - irei fazer uns gets armas especificas para cada heroi aqui
-		super(nome, vida, defesa, destreza, velocidade, TipoHeroi.ARQUEIRO);
+	public Arqueiro(int vida, int defesa, int destreza, int velocidade) {
+		super("Arqueiro", vida, defesa, destreza, velocidade, TipoHeroi.ARQUEIRO);
 
 		List<TipoArma> armasArqueiro = TipoArma.obterArmasParaArqueiro();
 		this.armaPrincipal = armasArqueiro.get(RANDOM.nextInt(armasArqueiro.size()));
@@ -21,7 +20,6 @@ public class Arqueiro extends Heroi {
 
 	// Construtor com valores padrão de um Arqueiro típico
 	public Arqueiro() {
-		// TODO - irei fazer uns gets armas especificas para cada heroi aqui
 		super("Arqueiro", 200, 25, 10, 15, TipoHeroi.ARQUEIRO);
 
 		List<TipoArma> armasArqueiro = TipoArma.obterArmasParaGuerreiro();

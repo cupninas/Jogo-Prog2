@@ -15,8 +15,8 @@ public class Ladino extends Heroi {
 	private int taxaEsquiva = 4;
 
 	// Construtor principal com todos os atributos
-	public Ladino(String nome, int vida, int defesa, int destreza, int velocidade) {
-		super(nome, vida, defesa, destreza, velocidade, TipoHeroi.LADINO);
+	public Ladino(int vida, int defesa, int destreza, int velocidade) {
+		super("Ladino", vida, defesa, destreza, velocidade, TipoHeroi.LADINO);
 
 		List<TipoArma> armasLadino = TipoArma.obterArmasParaLadino();
 		this.armaPrincipal = armasLadino.get(RANDOM.nextInt(armasLadino.size()));

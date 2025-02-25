@@ -8,8 +8,8 @@ import java.util.Random;
 
 public class EspectroDaAgonia extends Monstro {
 
-    public EspectroDaAgonia(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
-        super(nome,
+    public EspectroDaAgonia(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super("Arqueiro",
                 vida*dificuldade.getDificuldade(),
                 ataque*dificuldade.getDificuldade(),
                 defesa*dificuldade.getDificuldade(),

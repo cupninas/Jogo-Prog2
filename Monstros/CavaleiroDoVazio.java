@@ -8,8 +8,8 @@ import java.util.Random;
 
 public class CavaleiroDoVazio extends Monstro{
 
-    public CavaleiroDoVazio(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
-        super(nome,
+    public CavaleiroDoVazio(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super("Cavaleiro do Vazio",
                 vida*dificuldade.getDificuldade(),
                 ataque*dificuldade.getDificuldade(),
                 defesa*dificuldade.getDificuldade(),
