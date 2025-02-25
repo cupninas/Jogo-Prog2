@@ -12,26 +12,35 @@ Este é um jogo de batalhas entre heróis e monstros, implementado em Java. O jo
 
 ## Estrutura do Projeto
 ```
-Jogo/
-│── Jogo.java          # Classe principal que gerencia o jogo
-│── Log.java           # Classe para registrar eventos do jogo
-│── Personagem.java    # Classe base para heróis e monstros
-│── Herois/
-│   ├── Heroi.java     # Classe base para heróis
-│   ├── Arqueiro.java  # Implementação da classe Arqueiro
-│   ├── Ladino.java
-│   ├── Mago.java 
-│   ├── Guerreiro.java 
-│── Monstros/
-│   ├── Monstro.java 
-│   ├── AbominacaoDaCarne.java
-│   ├── CavaleiroDoVazio.java
+Directory structure:
+└── cupninas-jogo-prog2/
+    ├── README.md
+    ├── Jogo-Prog2.iml
+    ├── Jogo.java
+    ├── Log.java
+    ├── Personagem.java
+    ├── Turno.java
+    ├── log.txt
+    ├── Herois/
+    │   ├── Arqueiro.java
+    │   ├── Guerreiro.java
+    │   ├── Heroi.java
+    │   ├── Ladino.java
+    │   └── Mago.java
+    ├── Monstros/
+    │   ├── AbominacaoDaCarne.java
+    │   ├── CavaleiroDoVazio.java
+    │   ├── ColossoDePedraViva.java
+    │   ├── EspectroDaAgonia.java
+    │   ├── HidraDeSangue.java
+    │   └── Monstro.java
+    └── enums/
+        ├── ResultadoAtaque.java
+        ├── TipoArma.java
+        ├── TipoDificuldade.java
+        ├── TipoHeroi.java
+        └── TipoMonstro.java
 
-│── enums/
-│   ├── TipoHeroi.java # Enum para tipos de heróis
-│   ├── TipoArma.java  # Enum para tipos de armas
-│   ├── TipoDificuldade.java # Enum para dificuldades do jogo
-|   └── TipoMonstro.java # Enum para tipos de monstros
 ```
 
 ## Como Jogar
