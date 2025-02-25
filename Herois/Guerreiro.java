@@ -42,7 +42,7 @@ public class Guerreiro extends Heroi {
             log.addLog(this.getNome() + " errou sua ação!");
             return;
         }
-
+        this.armaPrincipal = escolherArmaMaisForte(TipoArma.obterArmasParaGuerreiro());
         log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
 
         int escolha = RANDOM.nextInt(6);
@@ -70,6 +70,15 @@ public class Guerreiro extends Heroi {
     }
 
     //--------------------- Ações de ataque --------------------
+
+    @Override
+    public TipoArma escolherArmaMaisForte(List<TipoArma> armas)  {
+        if (armas.isEmpty()) return null;
+
+        TipoArma armaForte = armas.getFirst();
+        for (TipoArma arma : armas) if (arma.getAtaque() > armaForte.getAtaque()) armaForte = arma;
+        return armaForte;
+    }
 
     private void golpeDemolidor(Monstro monstro) {
         log.addLog(this.getNome() + " desfere um GOLPE DEMOLIDOR com sua " + armaPrincipal.getNome() + "!");

@@ -44,6 +44,7 @@ public class Arqueiro extends Heroi {
 			return;
 		}
 
+		this.armaPrincipal = escolherArmaMaisForte(TipoArma.obterArmasParaArqueiro());
 		log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
 
 		int escolha = RANDOM.nextInt(3);
@@ -67,6 +68,15 @@ public class Arqueiro extends Heroi {
 	}
 
 	//--------------------- Ações de ataque --------------------
+
+	@Override
+	public TipoArma escolherArmaMaisForte(List<TipoArma> armas)  {
+		if (armas.isEmpty()) return null;
+
+		TipoArma armaForte = armas.getFirst();
+		for (TipoArma arma : armas) if (arma.getAtaque() > armaForte.getAtaque()) armaForte = arma;
+		return armaForte;
+	}
 
 	private void disparoComFlecha(Monstro monstro) {
 		System.out.println(this.getNome() + " dispara uma flecha com sua " + armaPrincipal.getNome() + "!");

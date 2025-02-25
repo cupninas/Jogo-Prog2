@@ -24,7 +24,7 @@ public class Mago extends Heroi {
 		super("Mago", 500, 30, 50, 20, TipoHeroi.MAGO);
 
 		List<TipoArma> armasMago = TipoArma.obterArmasParaMago();
-		this.armaPrincipal = armasMago.get(RANDOM.nextInt(armasMago.size()));
+		this.armaPrincipal = armasMago.getFirst();
 		this.ataque = TipoHeroi.MAGO.getAtaque()+this.armaPrincipal.getAtaque();
 	}
 
@@ -119,5 +119,17 @@ public class Mago extends Heroi {
 		this.manaReservada = false;
 		log.addLog(getNome() + " dispersou sua energia mágica acumulada.");
 	}
+
+	//--------------------- Escolha da Arma --------------------
+
+	@Override
+	public TipoArma escolherArmaMaisForte(List<TipoArma> armas)  {
+		if (armas.isEmpty()) return null;
+
+		TipoArma armaForte = armas.getFirst();
+		for (TipoArma arma : armas) if (arma.getAtaque() > armaForte.getAtaque()) armaForte = arma;
+		return armaForte;
+	}
+
 }
 

@@ -382,3 +382,516 @@
 [2025-02-25 01:50:15] Arqueiro sofreu 179 de dano!
 [2025-02-25 01:50:15] Arqueiro recebeu 179 de dano!
 [2025-02-25 01:50:15] Arqueiro foi derrotado!
+[2025-02-25 09:20:46] Jogo iniciado com dificuldade: MEDIO
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 1 -------------------------------
+[2025-02-25 09:20:46] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Mago conjura uma EXPLOSÃO ELEMENTAL!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu 34 de dano!
+[2025-02-25 09:20:46] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 09:20:46] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 2 -------------------------------
+[2025-02-25 09:20:46] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Mago dispara um RAIO DESINTEGRADOR!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu 34 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 09:20:46] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 3 -------------------------------
+[2025-02-25 09:20:46] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Mago começou a acumular energia mágica!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 09:20:46] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 09:20:46] Mago utilizou mana reservada para anular o dano!
+[2025-02-25 09:20:46] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 09:20:46] Mago recebeu 716 de dano do abismo!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 4 -------------------------------
+[2025-02-25 09:20:46] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Mago dispara um RAIO DESINTEGRADOR!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu 34 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 09:20:46] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 5 -------------------------------
+[2025-02-25 09:20:46] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Mago começou a acumular energia mágica!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 09:20:46] Cavaleiro do Vazio envolve-se em uma aura negra, aumentando sua defesa temporariamente!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 6 -------------------------------
+[2025-02-25 09:20:46] Mago atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Mago lança uma RAJADA ARCANA!
+[2025-02-25 09:20:46] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu 49 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Mago.
+[2025-02-25 09:20:46] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 09:20:46] Mago sofreu 716 de dano!
+[2025-02-25 09:20:46] Mago recebeu 716 de dano do abismo!
+[2025-02-25 09:20:46] Mago foi derrotado!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 7 -------------------------------
+[2025-02-25 09:20:46] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Guerreiro ataca de longe com sua Espada Longa, mantendo distância!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio recebeu 0 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 09:20:46] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 8 -------------------------------
+[2025-02-25 09:20:46] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Guerreiro balança seu Espada Longa com força total!
+[2025-02-25 09:20:46] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu um golpe brutal de 0 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 09:20:46] Cavaleiro do Vazio ativa a aura do VAZIO ETERNO! Ele reduz todo dano recebido por 1 turno!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 9 -------------------------------
+[2025-02-25 09:20:46] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Guerreiro golpeia com sua Espada Longa e tenta atordoar o inimigo!
+[2025-02-25 09:20:46] Cavaleiro do Vazio absorveu o ataque com o VAZIO ETERNO e não sofreu dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sente sua conexão com o vazio enfraquecer... Vazio Eterno foi desativado!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 09:20:46] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 09:20:46] Guerreiro sofreu 480 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio absorveu 48 de vida com o ataque!
+[2025-02-25 09:20:46] Guerreiro foi derrotado!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 10 -------------------------------
+[2025-02-25 09:20:46] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 09:20:46] Cavaleiro do Vazio invoca a LÂMINA DO ABISMO!
+[2025-02-25 09:20:46] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 09:20:46] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 09:20:46] Guerreiro recebeu 712 de dano do abismo!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 11 -------------------------------
+[2025-02-25 09:20:46] Guerreiro atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Guerreiro balança seu Clava com força total!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu 0 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu um golpe brutal de 0 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Guerreiro.
+[2025-02-25 09:20:46] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 09:20:46] Guerreiro sofreu 480 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio absorveu 48 de vida com o ataque!
+[2025-02-25 09:20:46] Guerreiro foi derrotado!
+[2025-02-25 09:20:46] ------------------------------ INICIO DO TURNO 12 -------------------------------
+[2025-02-25 09:20:46] Ladino atacou Cavaleiro do Vazio.
+[2025-02-25 09:20:46] Ladino ataca das sombras com sua Adaga!
+[2025-02-25 09:20:46] Cavaleiro do Vazio sofreu 39 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio atacou Ladino.
+[2025-02-25 09:20:46] Cavaleiro do Vazio lança um ATAQUE SOMBRIO!
+[2025-02-25 09:20:46] Ladino sofreu 480 de dano!
+[2025-02-25 09:20:46] Cavaleiro do Vazio absorveu 48 de vida com o ataque!
+[2025-02-25 09:20:46] Ladino foi derrotado!
+[2025-02-25 09:22:39] Jogo iniciado com dificuldade: MEDIO
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 1 -------------------------------
+[2025-02-25 09:22:39] Mago atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Mago começou a acumular energia mágica!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Mago.
+[2025-02-25 09:22:39] Colosso de Pedra Viva desfere um golpe esmagador contra Mago!
+[2025-02-25 09:22:39] Mago utilizou mana reservada para anular o dano!
+[2025-02-25 09:22:39] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 09:22:39] Mago recebeu 310 de dano!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 2 -------------------------------
+[2025-02-25 09:22:39] Mago atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Mago lança uma RAJADA ARCANA!
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 64 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Mago.
+[2025-02-25 09:22:39] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 3 -------------------------------
+[2025-02-25 09:22:39] Mago atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Mago lança múltiplas SETAS MÍSTICAS!
+[2025-02-25 09:22:39] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 09:22:39] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 20 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 32 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 32 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Mago.
+[2025-02-25 09:22:39] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 4 -------------------------------
+[2025-02-25 09:22:39] Mago atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Mago começou a acumular energia mágica!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Mago.
+[2025-02-25 09:22:39] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 5 -------------------------------
+[2025-02-25 09:22:39] Mago atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Mago dispara um RAIO DESINTEGRADOR!
+[2025-02-25 09:22:39] Mago dispersou sua energia mágica acumulada.
+[2025-02-25 09:22:39] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 09:22:39] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 09:22:39] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 09:22:39] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 39 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Mago.
+[2025-02-25 09:22:39] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 09:22:39] A pedra atinge a cabeça de Mago, causando um atordoamento!
+[2025-02-25 09:22:39] Mago sofreu 310 de dano!
+[2025-02-25 09:22:39] Mago recebeu 310 de dano!
+[2025-02-25 09:22:39] Mago foi derrotado!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 6 -------------------------------
+[2025-02-25 09:22:39] Guerreiro atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Guerreiro golpeia com sua Espada Longa e tenta atordoar o inimigo!
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Guerreiro.
+[2025-02-25 09:22:39] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 7 -------------------------------
+[2025-02-25 09:22:39] Guerreiro atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Guerreiro entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Guerreiro.
+[2025-02-25 09:22:39] Colosso de Pedra Viva desfere um golpe esmagador contra Guerreiro!
+[2025-02-25 09:22:39] Guerreiro está em fúria e desvia de todos os golpes.
+[2025-02-25 09:22:39] Guerreiro se acalma e sai do estado de FÚRIA.
+[2025-02-25 09:22:39] Guerreiro recebeu 343 de dano!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 8 -------------------------------
+[2025-02-25 09:22:39] Guerreiro atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Guerreiro golpeia com sua Espada Longa e tenta atordoar o inimigo!
+[2025-02-25 09:22:39] Colosso de Pedra Viva foi ATORDOADO!
+[2025-02-25 09:22:39] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 09:22:39] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Guerreiro.
+[2025-02-25 09:22:39] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 09:22:39] A pedra atinge a cabeça de Guerreiro, causando um atordoamento!
+[2025-02-25 09:22:39] Guerreiro sofreu 338 de dano!
+[2025-02-25 09:22:39] Guerreiro recebeu 338 de dano!
+[2025-02-25 09:22:39] Guerreiro foi derrotado!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 9 -------------------------------
+[2025-02-25 09:22:39] Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 09:22:39] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 09:22:39] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 09:22:39] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 09:22:39] Arqueiro recebeu 336 de dano!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 10 -------------------------------
+[2025-02-25 09:22:39] Arqueiro atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Arqueiro desfere ataques rápidos com sua Adaga!
+[2025-02-25 09:22:39] Ataques mais rápidos, mas com menos dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva recebeu 0 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Arqueiro.
+[2025-02-25 09:22:39] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 09:22:39] Arqueiro sofreu 336 de dano!
+[2025-02-25 09:22:39] Arqueiro recebeu 336 de dano!
+[2025-02-25 09:22:39] Arqueiro foi derrotado!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 11 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino ataca das sombras com sua Machadinha!
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 45 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 12 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino se escondeu nas sombras!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 13 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino realiza um ataque rápido com Machadinha!
+[2025-02-25 09:22:39] GOLPE CRÍTICO!
+[2025-02-25 09:22:39] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 09:22:39] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 09:22:39] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 09:22:39] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 09:22:39] Ladino evitou completamente o ataque ao permanecer nas sombras!
+[2025-02-25 09:22:39] Ladino foi revelado e saiu das sombras!
+[2025-02-25 09:22:39] Ladino recebeu 318 de dano!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 14 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino se escondeu nas sombras!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 15 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino se escondeu nas sombras!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva desfere um golpe esmagador contra Ladino!
+[2025-02-25 09:22:39] Ladino evitou completamente o ataque ao permanecer nas sombras!
+[2025-02-25 09:22:39] Ladino foi revelado e saiu das sombras!
+[2025-02-25 09:22:39] Ladino recebeu 318 de dano!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 16 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino desfere um golpe preciso com sua Machadinha!
+[2025-02-25 09:22:39] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 09:22:39] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 17 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino ataca das sombras com sua Machadinha!
+[2025-02-25 09:22:39] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 09:22:39] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 27 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva fortalece sua estrutura rochosa, aumentando a defesa temporariamente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 18 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino ataca das sombras com sua Machadinha!
+[2025-02-25 09:22:39] Colosso de Pedra Viva está em MODO DEFENSIVO! O impacto do ataque é minimizado.
+[2025-02-25 09:22:39] Colosso de Pedra Viva retorna ao modo normal.
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 27 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva finca seus pés no solo, tornando-se imóvel, mas extremamente resistente!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 19 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino realiza um ataque rápido com Machadinha!
+[2025-02-25 09:22:39] Colosso de Pedra Viva está ENRAIZADO no solo! O dano é reduzido pela metade.
+[2025-02-25 09:22:39] Colosso de Pedra Viva se liberta do solo e volta a se mover.
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva arranca uma grande pedra do solo e a arremessa!
+[2025-02-25 09:22:39] Ladino sofreu 318 de dano!
+[2025-02-25 09:22:39] Ladino recebeu 318 de dano!
+[2025-02-25 09:22:39] ------------------------------ INICIO DO TURNO 20 -------------------------------
+[2025-02-25 09:22:39] Ladino atacou Colosso de Pedra Viva.
+[2025-02-25 09:22:39] Ladino ataca com sua Machadinha!
+[2025-02-25 09:22:39] Colosso de Pedra Viva sofreu 0 de dano!
+[2025-02-25 09:22:39] Colosso de Pedra Viva atacou Ladino.
+[2025-02-25 09:22:39] Colosso de Pedra Viva desfere um golpe esmagador contra Ladino!
+[2025-02-25 09:22:39] GOLPE CRÍTICO! O golpe do Colosso causa destruição massiva!
+[2025-02-25 09:22:39] Ladino sofreu 678 de dano!
+[2025-02-25 09:22:39] Ladino recebeu 678 de dano!
+[2025-02-25 09:22:39] Ladino foi derrotado!
+[2025-02-25 09:40:50] Jogo iniciado com dificuldade: MEDIO
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 1 -------------------------------
+[2025-02-25 09:40:50] Guerreiro atacou Arqueiro.
+[2025-02-25 09:40:50] Guerreiro golpeia com sua Espada Bastarda e tenta atordoar o inimigo!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Guerreiro.
+[2025-02-25 09:40:50] Arqueiro solta um GRITO ASSOMBRADO!
+[2025-02-25 09:40:50] Guerreiro teve sua defesa reduzida em 6 pontos!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 2 -------------------------------
+[2025-02-25 09:40:50] Guerreiro atacou Arqueiro.
+[2025-02-25 09:40:50] Guerreiro corta rapidamente com sua Espada Bastarda!
+[2025-02-25 09:40:50] GOLPE CRÍTICO!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Guerreiro.
+[2025-02-25 09:40:50] Arqueiro ataca normalmente!
+[2025-02-25 09:40:50] Guerreiro sofreu 250 de dano!
+[2025-02-25 09:40:50] Guerreiro foi derrotado!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 3 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 4 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro se tornou etéreo e evitou completamente o ataque!
+[2025-02-25 09:40:50] Arqueiro retorna ao plano físico.
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro solta um GRITO ASSOMBRADO!
+[2025-02-25 09:40:50] Arqueiro teve sua defesa reduzida em 8 pontos!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 5 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro ataca normalmente!
+[2025-02-25 09:40:50] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 09:40:50] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 6 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 7 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se tornou etéreo e evitou completamente o ataque!
+[2025-02-25 09:40:50] Arqueiro retorna ao plano físico.
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro solta um GRITO ASSOMBRADO!
+[2025-02-25 09:40:50] Arqueiro teve sua defesa reduzida em 6 pontos!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 8 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro solta um GRITO ASSOMBRADO!
+[2025-02-25 09:40:50] Arqueiro teve sua defesa reduzida em 4 pontos!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 9 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro usa DRENAR VIDA!
+[2025-02-25 09:40:50] Arqueiro sofreu 250 de dano!
+[2025-02-25 09:40:50] Arqueiro perdeu 250 de HP!
+[2025-02-25 09:40:50] Arqueiro absorveu 125 de HP!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 10 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro usa DRENAR VIDA!
+[2025-02-25 09:40:50] Arqueiro sofreu 360 de dano!
+[2025-02-25 09:40:50] Arqueiro perdeu 360 de HP!
+[2025-02-25 09:40:50] Arqueiro absorveu 180 de HP!
+[2025-02-25 09:40:50] Arqueiro foi derrotado!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 11 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 12 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 09:40:50] Arqueiro se tornou etéreo e evitou completamente o ataque!
+[2025-02-25 09:40:50] Arqueiro retorna ao plano físico.
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro solta um GRITO ASSOMBRADO!
+[2025-02-25 09:40:50] Arqueiro teve sua defesa reduzida em 10 pontos!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 13 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro ataca normalmente!
+[2025-02-25 09:40:50] Arqueiro sofreu 250 de dano!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 14 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro usa DRENAR VIDA!
+[2025-02-25 09:40:50] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 09:40:50] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 09:40:50] Arqueiro perdeu 250 de HP!
+[2025-02-25 09:40:50] Arqueiro absorveu 125 de HP!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 15 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 16 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro usa DRENAR VIDA!
+[2025-02-25 09:40:50] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 09:40:50] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 09:40:50] Arqueiro perdeu 250 de HP!
+[2025-02-25 09:40:50] Arqueiro absorveu 125 de HP!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 17 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro usa DRENAR VIDA!
+[2025-02-25 09:40:50] Arqueiro sofreu 360 de dano!
+[2025-02-25 09:40:50] Arqueiro perdeu 360 de HP!
+[2025-02-25 09:40:50] Arqueiro absorveu 180 de HP!
+[2025-02-25 09:40:50] Arqueiro foi derrotado!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 18 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 19 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro ataca normalmente!
+[2025-02-25 09:40:50] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 09:40:50] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 20 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se tornou etéreo e evitou completamente o ataque!
+[2025-02-25 09:40:50] Arqueiro retorna ao plano físico.
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 21 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se tornou etéreo e evitou completamente o ataque!
+[2025-02-25 09:40:50] Arqueiro retorna ao plano físico.
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro ataca normalmente!
+[2025-02-25 09:40:50] Arqueiro sofreu 250 de dano!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 22 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 23 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se tornou etéreo e evitou completamente o ataque!
+[2025-02-25 09:40:50] Arqueiro retorna ao plano físico.
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro usa DRENAR VIDA!
+[2025-02-25 09:40:50] Arqueiro sofreu 250 de dano!
+[2025-02-25 09:40:50] Arqueiro perdeu 250 de HP!
+[2025-02-25 09:40:50] Arqueiro absorveu 125 de HP!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 24 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro solta um GRITO ASSOMBRADO!
+[2025-02-25 09:40:50] Arqueiro teve sua defesa reduzida em 9 pontos!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 25 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Ataque duplo! O Arqueiro desfere um golpe extra!
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 26 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro se tornou etéreo e evitou completamente o ataque!
+[2025-02-25 09:40:50] Arqueiro retorna ao plano físico.
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro solta um GRITO ASSOMBRADO!
+[2025-02-25 09:40:50] Arqueiro teve sua defesa reduzida em 6 pontos!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 27 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro solta um GRITO ASSOMBRADO!
+[2025-02-25 09:40:50] Arqueiro teve sua defesa reduzida em 4 pontos!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 28 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro prepara uma flecha carregada para o próximo turno!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 29 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro desfere ataques rápidos com sua Sabre!
+[2025-02-25 09:40:50] Arqueiro se tornou etéreo e evitou completamente o ataque!
+[2025-02-25 09:40:50] Arqueiro retorna ao plano físico.
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro usa DRENAR VIDA!
+[2025-02-25 09:40:50] Arqueiro foi atingido e perdeu a concentração, desativando Flecha Carregada! Mas não sofreu dano.
+[2025-02-25 09:40:50] Arqueiro relaxa a tensão do arco e desfaz a Flecha Carregada.
+[2025-02-25 09:40:50] Arqueiro perdeu 360 de HP!
+[2025-02-25 09:40:50] Arqueiro absorveu 180 de HP!
+[2025-02-25 09:40:50] ------------------------------ INICIO DO TURNO 30 -------------------------------
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro sofreu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro recebeu 0 de dano!
+[2025-02-25 09:40:50] Arqueiro atacou Arqueiro.
+[2025-02-25 09:40:50] Arqueiro ataca normalmente!
+[2025-02-25 09:40:50] Arqueiro sofreu 250 de dano!
+[2025-02-25 09:40:50] Arqueiro foi derrotado!

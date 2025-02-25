@@ -4,6 +4,8 @@ import Jogo.Personagem;
 import Jogo.enums.TipoArma;
 import Jogo.enums.TipoHeroi;
 
+import java.util.List;
+
 public abstract class Heroi extends Personagem {
 	protected TipoHeroi classe;
 	protected TipoArma armaPrincipal;
@@ -14,5 +16,7 @@ public abstract class Heroi extends Personagem {
     }
 
 	public abstract void realizarAcao(Monstro monstro) throws Exception;
+
+	public abstract TipoArma escolherArmaMaisForte(List<TipoArma> armas);
 
 }
