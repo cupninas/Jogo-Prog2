@@ -1,18 +1,34 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.Heroi;
+import Jogo.Log;
+import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
 
+import static Jogo.Jogo.log;
+
 public class EspectroDaAgonia extends Monstro {
 
-    public EspectroDaAgonia(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
-        super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.ESPECTRO_DA_AGONIA);
+    public EspectroDaAgonia(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super("Arqueiro",
+                vida*dificuldade.getDificuldade(),
+                ataque*dificuldade.getDificuldade(),
+                defesa*dificuldade.getDificuldade(),
+                destreza*dificuldade.getDificuldade(),
+                velocidade*dificuldade.getDificuldade(),
+                TipoMonstro.ESPECTRO_DA_AGONIA);
     }
 
-    public EspectroDaAgonia() {
-        super("Arqueiro", 150, 20, 10, 10, 5, TipoMonstro.ESPECTRO_DA_AGONIA);
+    public EspectroDaAgonia(TipoDificuldade dificuldade) {
+        super("Arqueiro",
+                150*dificuldade.getDificuldade(),
+                20*dificuldade.getDificuldade(),
+                10*dificuldade.getDificuldade(),
+                10*dificuldade.getDificuldade(),
+                5*dificuldade.getDificuldade(),
+                TipoMonstro.ESPECTRO_DA_AGONIA);
     }
 
     //--------------------- Atributos escudos --------------------
@@ -23,9 +39,16 @@ public class EspectroDaAgonia extends Monstro {
 
     @Override
     public void realizarAcao(Heroi heroi) throws Exception {
-        //TODO - realizar algum dos ataques de forma randomica - ivan
-        Random random = new Random();
-        int escolha = random.nextInt(4);
+        double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
+
+        if (Math.random() > chanceDeAcerto) {
+            log.addLog(this.getNome() + " errou sua ação!");
+            return;
+        }
+
+        log.addLog(this.getNome() + " atacou " + heroi.getNome() + ".");
+
+        int escolha = RANDOM.nextInt(4);
         switch (escolha) {
             case 0 -> gritoAssombrado(heroi);
             case 1 -> drenarVida(heroi);
@@ -37,22 +60,13 @@ public class EspectroDaAgonia extends Monstro {
 
     @Override
     public void sofrerDano(int dano) {
-        //TODO - verifica se os alguns dos atributos de "escudo" estao true, senao, tenta realizar o dano. - ivan
-        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui - ivan
         if (intangivelAtivo) {
-            System.out.println(nome + " se tornou etéreo e evitou completamente o ataque!");
-            intangivelAtivo = false;
-            return;
+            log.addLog(nome + " se tornou etéreo e evitou completamente o ataque!");
+            desativarIntangibilidade();
+        } else {
+            this.vida -= dano;
+            log.addLog(getNome() + " sofreu " + dano + " de dano!");
         }
-        //TODO - se nenhum dos atributos forem true, tenta executar a acao, - ivan
-        this.vida -= dano;
-
-        //sempre que comecar um turno novo, realizar os metodos de desativacao de escudo, como -> desativarIntangibilidade
-    }
-
-    @Override
-    public void comecarNovoTurno() {
-        desativarIntangibilidade();
     }
 
     //--------------------- Ações de ataque --------------------
@@ -63,16 +77,12 @@ public class EspectroDaAgonia extends Monstro {
      * ✔ Reduz a defesa do herói em 30% temporariamente → Deixa-o mais vulnerável a ataques.
      */
     private void gritoAssombrado(Heroi heroi) {
-        System.out.println(this.getNome() + " solta um GRITO ASSOMBRADO!");
-
-        // Aplica paralisia no herói por 1 turno
-        heroi.setParalisado(true);
-        System.out.println(heroi.getNome() + " está paralisado pelo medo!");
+        log.addLog(this.getNome() + " solta um GRITO ASSOMBRADO!");
 
         // Reduz temporariamente a defesa do herói
         int reducaoDefesa = (int) (heroi.getDefesa() * 0.3); // Reduz 30% da defesa
         heroi.setDefesa(heroi.getDefesa() - reducaoDefesa);
-        System.out.println(heroi.getNome() + " teve sua defesa reduzida em " + reducaoDefesa + " pontos!");
+        log.addLog(heroi.getNome() + " teve sua defesa reduzida em " + reducaoDefesa + " pontos!");
 
         // TODO: Criar um sistema para restaurar a defesa após um turno - ivan
     }
@@ -84,17 +94,17 @@ public class EspectroDaAgonia extends Monstro {
      * ✔ Recupera parte do dano causado
      */
     private void drenarVida(Heroi heroi) {
-        System.out.println(this.getNome() + " usa DRENAR VIDA!");
+        log.addLog(this.getNome() + " usa DRENAR VIDA!");
 
         // Calcula dano baseado no ataque do espectro
         int dano = this.getAtaque();
         heroi.sofrerDano(dano);
-        System.out.println(heroi.getNome() + " perdeu " + dano + " de HP!");
+        log.addLog(heroi.getNome() + " perdeu " + dano + " de HP!");
 
         // Recupera 50% do dano causado
         int cura = dano / 2;
         this.setVida(this.getVida() + cura);
-        System.out.println(this.getNome() + " absorveu " + cura + " de HP!");
+        log.addLog(this.getNome() + " absorveu " + cura + " de HP!");
     }
 
     /**
@@ -104,23 +114,21 @@ public class EspectroDaAgonia extends Monstro {
     *✔ O efeito dura apenas 1 turno e precisa ser reativado em outro momento.
     */
     private void ataqueNormal(Heroi heroi) {
-        System.out.println(this.getNome() + " ataca normalmente!");
+        log.addLog(this.getNome() + " ataca normalmente!");
         heroi.sofrerDano(this.getAtaque());
     }
 
     //--------------------- Ações de defesa --------------------
 
     private void ativarIntangibilidade() {
-        System.out.println(this.getNome() + " se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.");
+        log.addLog(this.getNome() + " se torna INTANGÍVEL! Ataques físicos não terão efeito no próximo turno.");
         this.intangivelAtivo = true;
     }
 
     //--------------------- Desativações de escudo --------------------
 
     public void desativarIntangibilidade() {
-        if (intangivelAtivo) {
-            System.out.println(this.getNome() + " retorna ao plano físico.");
-            this.intangivelAtivo = false;
-        }
+        log.addLog(this.getNome() + " retorna ao plano físico.");
+        this.intangivelAtivo = false;
     }
 }

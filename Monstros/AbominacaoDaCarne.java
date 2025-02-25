@@ -1,21 +1,37 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.*;
+import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
-import java.util.Random;
+
+import static Jogo.Jogo.log;
 
 public class AbominacaoDaCarne extends Monstro {
 
     private int vidaMaxima;
 
-    public AbominacaoDaCarne(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
-        super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.ABOMINACAO_DA_CARNE);
+    public AbominacaoDaCarne(int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super("Abominação da Carne",
+                vida*dificuldade.getDificuldade(),
+                ataque*dificuldade.getDificuldade(),
+                defesa*dificuldade.getDificuldade(),
+                destreza*dificuldade.getDificuldade(),
+                velocidade*dificuldade.getDificuldade(),
+                TipoMonstro.ABOMINACAO_DA_CARNE
+        );
         this.vidaMaxima = vida;
     }
 
-    public AbominacaoDaCarne() {
-        super("Abominação da Carne", 300, 35, 20, 5, 2, TipoMonstro.ABOMINACAO_DA_CARNE);
+    public AbominacaoDaCarne(TipoDificuldade dificuldade) {
+        super("Abominação da Carne",
+                300*dificuldade.getDificuldade(),
+                35*dificuldade.getDificuldade(),
+                20*dificuldade.getDificuldade(),
+                5*dificuldade.getDificuldade(),
+                2*dificuldade.getDificuldade(),
+                TipoMonstro.ABOMINACAO_DA_CARNE
+        );
     }
 
     //--------------------- Atributos escudos --------------------
@@ -26,9 +42,16 @@ public class AbominacaoDaCarne extends Monstro {
 
     @Override
     public void realizarAcao(Heroi heroi) throws Exception {
-        //TODO - realizar algum dos ataques de forma randomica
-        Random random = new Random();
-        int escolha = random.nextInt(4);
+        double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
+
+        if (Math.random() > chanceDeAcerto) {
+            log.addLog(this.getNome() + " errou sua ação!");
+            return;
+        }
+
+        log.addLog(this.getNome() + " atacou " + heroi.getNome() + ".");
+
+        int escolha = RANDOM.nextInt(4);
         switch (escolha) {
             case 0 -> esmagar(heroi);
             case 1 -> regeneracaoProfana();
@@ -40,27 +63,20 @@ public class AbominacaoDaCarne extends Monstro {
 
     @Override
     public void sofrerDano(int dano) {
-        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui - ivan
-        //aqui nao tem esses atributos escudos, nao precisa fazer a verificacao - ivan
-
         if (corpoRemendado) {
+            log.addLog(getNome() + " usa seu CORPO REMENDADO para reduzir o impacto do golpe!");
             dano = (int) (dano * 0.7);
+            desativarCorpoRemendado();
         }
-        //TODO - se nenhum dos atributos forem true, tenta executar a acao, - ivan
-
         if (dano < 0) dano = 0;
         this.vida -= dano;
-    }
-
-    @Override
-    public void comecarNovoTurno() {
-        desativarCorpoRemendado();
+        log.addLog(getNome() + " sofreu " + dano + " de dano!");
     }
 
     //--------------------- Ações de ataque --------------------
 
     private void esmagar(Heroi heroi) {
-        System.out.println(this.getNome() + " usa ESMAGAR!");
+        log.addLog(this.getNome() + " usa ESMAGAR!");
 
         // Causa 50% mais dano e ignora 30% da defesa do herói
         int danoBase = this.getAtaque();
@@ -70,18 +86,18 @@ public class AbominacaoDaCarne extends Monstro {
         if (danoFinal < 0) danoFinal = 0; // Evita dano negativo
         heroi.sofrerDano(danoFinal);
 
-        System.out.println(heroi.getNome() + " recebeu " + danoFinal + " de dano!");
+        log.addLog(heroi.getNome() + " recebeu " + danoFinal + " de dano!");
     }
 
     private void regeneracaoProfana() {
         int cura = (int) (this.vidaMaxima * 0.1); // Recupera 10% da vida máxima
         this.setVida(this.getVida() + cura);
 
-        System.out.println(this.getNome() + " ativa REGENERAÇÃO PROFANA e recupera " + cura + " de HP!");
+        log.addLog(this.getNome() + " ativa REGENERAÇÃO PROFANA e recupera " + cura + " de HP!");
     }
 
     private void ataqueNormal(Heroi heroi) {
-        System.out.println(this.getNome() + " ataca com um soco brutal!");
+        log.addLog(this.getNome() + " ataca com um soco brutal!");
         heroi.sofrerDano(this.getAtaque());
     }
 
@@ -91,20 +107,18 @@ public class AbominacaoDaCarne extends Monstro {
         if (!corpoRemendado) {
             corpoRemendado = true;
             this.defesa += 10; // Aumenta a defesa enquanto estiver ativo
-            System.out.println(this.getNome() + " costura sua carne retorcida e fortalece sua defesa!");
+            log.addLog(this.getNome() + " costura sua carne retorcida e fortalece sua defesa!");
         } else {
-            System.out.println(this.getNome() + " já está com o Corpo Remendado ativo!");
+            log.addLog(this.getNome() + " já está com o Corpo Remendado ativo!");
         }
     }
 
     //--------------------- Desativações de escudo --------------------
 
     public void desativarCorpoRemendado() {
-        if (corpoRemendado) {
-            corpoRemendado = false;
-            this.defesa -= 10; // Retorna a defesa ao normal
-            System.out.println(this.getNome() + " começa a se decompor novamente... Corpo Remendado foi desativado!");
-        }
+        corpoRemendado = false;
+        this.defesa -= 10; // Retorna a defesa ao normal
+        log.addLog(this.getNome() + " começa a se decompor novamente... Corpo Remendado foi desativado!");
     }
 
 }

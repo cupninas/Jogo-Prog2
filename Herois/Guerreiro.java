@@ -6,11 +6,13 @@ import Jogo.enums.TipoHeroi;
 
 import java.util.List;
 
+import static Jogo.Jogo.log;
+
 public class Guerreiro extends Heroi {
 
     // Construtor principal com todos os atributos
-    public Guerreiro(String nome, int vida, int defesa, int destreza, int velocidade) {
-        super(nome, vida, defesa, destreza, velocidade, TipoHeroi.GUERREIRO);
+    public Guerreiro(int vida, int defesa, int destreza, int velocidade) {
+        super("Guerreiro", vida, defesa, destreza, velocidade, TipoHeroi.GUERREIRO);
 
         List<TipoArma> armasGuerreiro = TipoArma.obterArmasParaGuerreiro();
         this.armaPrincipal = armasGuerreiro.get(RANDOM.nextInt(armasGuerreiro.size()));
@@ -34,7 +36,15 @@ public class Guerreiro extends Heroi {
 
     @Override
     public void realizarAcao(Monstro monstro) throws Exception {
-        // TODO - colocar uma tentativa de realizar acao.
+        double chanceDeAcerto = Math.min(0.5 + (this.getDestreza() * 0.05), 1.0); // Base 50% + 5% por ponto de destreza, máx 100%
+
+        if (Math.random() > chanceDeAcerto) {
+            log.addLog(this.getNome() + " errou sua ação!");
+            return;
+        }
+
+        log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
+
         int escolha = RANDOM.nextInt(6);
         switch (escolha) {
             case 0 -> ativarFuria();
@@ -50,19 +60,19 @@ public class Guerreiro extends Heroi {
 
     @Override
     public void sofrerDano(int dano) {
-        //TODO - Esse metodo só é chamado por outra classe, não por essa aqui.
-        // Aqui nao tem esses atributos escudos, nao precisa fazer a verificacao.
-        // se nenhum dos atributos forem true, tenta executar a acao,
-        this.vida -= dano;
+        if (furiaAtiva) {
+            log.addLog(this.getNome() + " está em fúria e desvia de todos os golpes.");
+            desativarFuria();
+        } else {
+            this.vida -= dano;
+            log.addLog(this.getNome() + " sofreu " + dano + " de dano!");
+        }
     }
-
-    @Override
-    public void comecarNovoTurno() { desativarFuria(); }
 
     //--------------------- Ações de ataque --------------------
 
     private void golpeDemolidor(Monstro monstro) {
-        System.out.println(this.getNome() + " desfere um GOLPE DEMOLIDOR com sua " + armaPrincipal.getNome() + "!");
+        log.addLog(this.getNome() + " desfere um GOLPE DEMOLIDOR com sua " + armaPrincipal.getNome() + "!");
 
         int danoBase = this.getAtaque();
         int defesaIgnorada = (int) (monstro.getDefesa() * 0.2);
@@ -71,34 +81,34 @@ public class Guerreiro extends Heroi {
         if (danoFinal < 0) danoFinal = 0;
         monstro.sofrerDano(danoFinal);
 
-        System.out.println(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
+        log.addLog(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
     }
 
     private void ataquePesado(Monstro monstro) {
-        System.out.println(this.getNome() + " balança seu " + armaPrincipal.getNome() + " com força total!");
+        log.addLog(this.getNome() + " balança seu " + armaPrincipal.getNome() + " com força total!");
         int danoFinal = this.getAtaque() * 2 - monstro.getDefesa();
 
         if (danoFinal < 0) danoFinal = 0;
         monstro.sofrerDano(danoFinal);
 
-        System.out.println(monstro.getNome() + " sofreu um golpe brutal de " + danoFinal + " de dano!");
+        log.addLog(monstro.getNome() + " sofreu um golpe brutal de " + danoFinal + " de dano!");
     }
 
     private void ataqueComAlcance(Monstro monstro) {
-        System.out.println(this.getNome() + " ataca de longe com sua " + armaPrincipal.getNome() + ", mantendo distância!");
+        log.addLog(this.getNome() + " ataca de longe com sua " + armaPrincipal.getNome() + ", mantendo distância!");
         int danoFinal = this.getAtaque() - (monstro.getDefesa() / 2);
 
         if (danoFinal < 0) danoFinal = 0;
         monstro.sofrerDano(danoFinal);
 
-        System.out.println(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
+        log.addLog(monstro.getNome() + " recebeu " + danoFinal + " de dano!");
     }
 
     private void ataqueComAtordoamento(Monstro monstro) {
-        System.out.println(this.getNome() + " golpeia com sua " + armaPrincipal.getNome() + " e tenta atordoar o inimigo!");
+        log.addLog(this.getNome() + " golpeia com sua " + armaPrincipal.getNome() + " e tenta atordoar o inimigo!");
         int danoFinal = this.getAtaque() - monstro.getDefesa();
         if (Math.random() < 0.3) { // 30% de chance de atordoamento
-            System.out.println(monstro.getNome() + " foi ATORDOADO!");
+            log.addLog(monstro.getNome() + " foi ATORDOADO!");
         }
 
         if (danoFinal < 0) danoFinal = 0;
@@ -106,11 +116,11 @@ public class Guerreiro extends Heroi {
     }
 
     private void ataqueRapido(Monstro monstro) {
-        System.out.println(this.getNome() + " corta rapidamente com sua " + armaPrincipal.getNome() + "!");
+        log.addLog(this.getNome() + " corta rapidamente com sua " + armaPrincipal.getNome() + "!");
         int danoFinal = (int) (this.getAtaque() * 1.2) - monstro.getDefesa();
         if (Math.random() < 0.4) { // 40% de chance de crítico
             danoFinal *= 2;
-            System.out.println("GOLPE CRÍTICO!");
+            log.addLog("GOLPE CRÍTICO!");
         }
 
         if (danoFinal < 0) danoFinal = 0;
@@ -124,23 +134,19 @@ public class Guerreiro extends Heroi {
             furiaAtiva = true;
             this.ataque += 10; // Aumenta o ataque enquanto a fúria está ativa
             this.defesa -= 5; // Reduz um pouco a defesa em troca do poder bruto
-            System.out.println(this.getNome() + " entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.");
+            log.addLog(this.getNome() + " entra em um estado de FÚRIA! Seu ataque aumenta, mas sua defesa é reduzida.");
         } else {
-            System.out.println(this.getNome() + " já está em fúria!");
+            log.addLog(this.getNome() + " já está em fúria!");
         }
     }
 
     //--------------------- Desativações de escudo --------------------
 
     private void desativarFuria() {
-        if (furiaAtiva) {
-            furiaAtiva = false;
-            this.ataque -= 10; // Retorna o ataque ao normal
-            this.defesa += 5; // Recupera a defesa perdida
-            System.out.println(this.getNome() + " se acalma e sai do estado de FÚRIA.");
-        } else {
-            System.out.println(this.getNome() + " não está em fúria no momento.");
-        }
+        furiaAtiva = false;
+        this.ataque -= 10; // Retorna o ataque ao normal
+        this.defesa += 5; // Recupera a defesa perdida
+        log.addLog(this.getNome() + " se acalma e sai do estado de FÚRIA.");
     }
 
 }

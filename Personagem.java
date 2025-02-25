@@ -1,12 +1,7 @@
 package Jogo;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.Random;
 
-@Getter
-@Setter
 public abstract class Personagem {
 
 	protected static final Random RANDOM = new Random();
@@ -26,11 +21,57 @@ public abstract class Personagem {
 		this.destreza = destreza;
 		this.velocidade = velocidade;
 	}
-	public void sofrerDano(int dano) {
-		this.vida -= dano;
-	}
+	public abstract void sofrerDano(int dano);
+
 	public boolean estaVivo() {
 		return this.vida > 0;
 	}
-	public abstract void comecarNovoTurno();
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getVida() {
+		return vida;
+	}
+
+	public void setVida(int vida) {
+		this.vida = vida;
+	}
+
+	public int getAtaque() {
+		return ataque;
+	}
+
+	public void setAtaque(int ataque) {
+		this.ataque = ataque;
+	}
+
+	public int getDefesa() {
+		return defesa;
+	}
+
+	public void setDefesa(int defesa) {
+		this.defesa = defesa;
+	}
+
+	public int getDestreza() {
+		return destreza;
+	}
+
+	public void setDestreza(int destreza) {
+		this.destreza = destreza;
+	}
+
+	public int getVelocidade() {
+		return velocidade;
+	}
+
+	public void setVelocidade(int velocidade) {
+		this.velocidade = velocidade;
+	}
 }

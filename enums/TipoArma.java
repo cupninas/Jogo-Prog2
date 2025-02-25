@@ -1,11 +1,6 @@
 package Jogo.enums;
-
-import lombok.Getter;
-
 import java.util.List;
 
-@Getter
-// classe que representa as armas do jogo
 public enum TipoArma { 
     ESPADA_LONGA(0, "Espada Longa", "Uma espada versátil usada por cavaleiros medievais. Equilibra alcance e poder de ataque.", 30),
     MACHADO_DE_BATALHA(1, "Machado de Batalha", "Uma arma pesada capaz de partir armaduras. Muito usada por guerreiros nórdicos.", 30),
@@ -66,5 +61,21 @@ public enum TipoArma {
                 TipoArma.SABRE,
                 TipoArma.KATANA
         );
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getAtaque() {
+        return ataque;
     }
 }
