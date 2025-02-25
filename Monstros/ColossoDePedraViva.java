@@ -1,18 +1,31 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.Heroi;
+import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
 
 public class ColossoDePedraViva extends Monstro{
 
-    public ColossoDePedraViva(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
-        super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.COLOSSO_DE_PEDRA_VIVA);
+    public ColossoDePedraViva(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super(nome,
+                vida*dificuldade.getDificuldade(),
+                ataque*dificuldade.getDificuldade(),
+                defesa*dificuldade.getDificuldade(),
+                destreza*dificuldade.getDificuldade(),
+                velocidade*dificuldade.getDificuldade(),
+                TipoMonstro.COLOSSO_DE_PEDRA_VIVA);
     }
 
-    public ColossoDePedraViva() {
-        super("Colosso de Pedra Viva", 400, 40, 35, 5, 3, TipoMonstro.COLOSSO_DE_PEDRA_VIVA);
+    public ColossoDePedraViva(TipoDificuldade dificuldade) {
+        super("Colosso de Pedra Viva",
+                400*dificuldade.getDificuldade(),
+                40*dificuldade.getDificuldade(),
+                35*dificuldade.getDificuldade(),
+                5*dificuldade.getDificuldade(),
+                3*dificuldade.getDificuldade(),
+                TipoMonstro.COLOSSO_DE_PEDRA_VIVA);
     }
 
     //--------------------- Atributos escudos --------------------

@@ -27,15 +27,15 @@ public class Jogo {
         executarTurnos();
     }
 
-    private Monstro gerarMonstroAleatorio() throws Exception {
+    private Monstro gerarMonstroAleatorio(TipoDificuldade dificuldade) throws Exception {
         Random random = new Random();
         int escolha = random.nextInt(5);
         return switch (escolha) {
-            case 0 -> new AbominacaoDaCarne();
-            case 1 -> new CavaleiroDoVazio();
-            case 2 -> new ColossoDePedraViva();
-            case 3 -> new EspectroDaAgonia();
-            case 4 -> new HidraDeSangue();
+            case 0 -> new AbominacaoDaCarne(dificuldade);
+            case 1 -> new CavaleiroDoVazio(dificuldade);
+            case 2 -> new ColossoDePedraViva(dificuldade);
+            case 3 -> new EspectroDaAgonia(dificuldade);
+            case 4 -> new HidraDeSangue(dificuldade);
             default -> throw new Exception();
         };
     }
@@ -104,6 +104,5 @@ public class Jogo {
                 }
             }
         }
-        encerrarJogo();
     }
 }

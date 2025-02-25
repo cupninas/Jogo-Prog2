@@ -1,6 +1,7 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.Heroi;
+import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
@@ -8,13 +9,25 @@ import java.util.Random;
 public class HidraDeSangue extends Monstro{
     private int vidaMaxima = 250;
 
-    public HidraDeSangue(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
-        super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.HIDRA_DE_SANGUE);
+    public HidraDeSangue(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super(nome,
+                vida*dificuldade.getDificuldade(),
+                ataque*dificuldade.getDificuldade(),
+                defesa*dificuldade.getDificuldade(),
+                destreza*dificuldade.getDificuldade(),
+                velocidade*dificuldade.getDificuldade(),
+                TipoMonstro.HIDRA_DE_SANGUE);
         this.vidaMaxima = vida;
     }
 
-    public HidraDeSangue() {
-        super("Hidra de Sangue", 250, 25, 15, 10, 7, TipoMonstro.HIDRA_DE_SANGUE);
+    public HidraDeSangue(TipoDificuldade dificuldade) {
+        super("Hidra de Sangue",
+                250*dificuldade.getDificuldade(),
+                25*dificuldade.getDificuldade(),
+                15*dificuldade.getDificuldade(),
+                10*dificuldade.getDificuldade(),
+                7*dificuldade.getDificuldade(),
+                TipoMonstro.HIDRA_DE_SANGUE);
         this.vidaMaxima = 250;
     }
 

@@ -1,6 +1,7 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.*;
+import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
@@ -9,13 +10,27 @@ public class AbominacaoDaCarne extends Monstro {
 
     private int vidaMaxima;
 
-    public AbominacaoDaCarne(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
-        super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.ABOMINACAO_DA_CARNE);
+    public AbominacaoDaCarne(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super(nome,
+                vida*dificuldade.getDificuldade(),
+                ataque*dificuldade.getDificuldade(),
+                defesa*dificuldade.getDificuldade(),
+                destreza*dificuldade.getDificuldade(),
+                velocidade*dificuldade.getDificuldade(),
+                TipoMonstro.ABOMINACAO_DA_CARNE
+        );
         this.vidaMaxima = vida;
     }
 
-    public AbominacaoDaCarne() {
-        super("Abominação da Carne", 300, 35, 20, 5, 2, TipoMonstro.ABOMINACAO_DA_CARNE);
+    public AbominacaoDaCarne(TipoDificuldade dificuldade) {
+        super("Abominação da Carne",
+                300*dificuldade.getDificuldade(),
+                35*dificuldade.getDificuldade(),
+                20*dificuldade.getDificuldade(),
+                5*dificuldade.getDificuldade(),
+                2*dificuldade.getDificuldade(),
+                TipoMonstro.ABOMINACAO_DA_CARNE
+        );
     }
 
     //--------------------- Atributos escudos --------------------

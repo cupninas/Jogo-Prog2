@@ -1,18 +1,31 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.Heroi;
+import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
 
 public class EspectroDaAgonia extends Monstro {
 
-    public EspectroDaAgonia(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
-        super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.ESPECTRO_DA_AGONIA);
+    public EspectroDaAgonia(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super(nome,
+                vida*dificuldade.getDificuldade(),
+                ataque*dificuldade.getDificuldade(),
+                defesa*dificuldade.getDificuldade(),
+                destreza*dificuldade.getDificuldade(),
+                velocidade*dificuldade.getDificuldade(),
+                TipoMonstro.ESPECTRO_DA_AGONIA);
     }
 
-    public EspectroDaAgonia() {
-        super("Arqueiro", 150, 20, 10, 10, 5, TipoMonstro.ESPECTRO_DA_AGONIA);
+    public EspectroDaAgonia(TipoDificuldade dificuldade) {
+        super("Arqueiro",
+                150*dificuldade.getDificuldade(),
+                20*dificuldade.getDificuldade(),
+                10*dificuldade.getDificuldade(),
+                10*dificuldade.getDificuldade(),
+                5*dificuldade.getDificuldade(),
+                TipoMonstro.ESPECTRO_DA_AGONIA);
     }
 
     //--------------------- Atributos escudos --------------------

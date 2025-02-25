@@ -1,18 +1,30 @@
 package Jogo.Monstros;
 
 import Jogo.Herois.Heroi;
+import Jogo.enums.TipoDificuldade;
 import Jogo.enums.TipoMonstro;
 
 import java.util.Random;
 
 public class CavaleiroDoVazio extends Monstro{
 
-    public CavaleiroDoVazio(String nome, int vida, int ataque, int defesa, int destreza, int velocidade) {
-        super(nome, vida, ataque, defesa, destreza, velocidade, TipoMonstro.CAVALEIRO_DO_VAZIO);
+    public CavaleiroDoVazio(String nome, int vida, int ataque, int defesa, int destreza, int velocidade, TipoDificuldade dificuldade) {
+        super(nome,
+                vida*dificuldade.getDificuldade(),
+                ataque*dificuldade.getDificuldade(),
+                defesa*dificuldade.getDificuldade(),
+                destreza*dificuldade.getDificuldade(),
+                velocidade, TipoMonstro.CAVALEIRO_DO_VAZIO);
     }
 
-    public CavaleiroDoVazio() {
-        super("Cavaleiro do Vazio", 280, 30, 25, 12, 6, TipoMonstro.CAVALEIRO_DO_VAZIO);
+    public CavaleiroDoVazio(TipoDificuldade dificuldade) {
+        super("Cavaleiro do Vazio",
+                280*dificuldade.getDificuldade(),
+                30*dificuldade.getDificuldade(),
+                25*dificuldade.getDificuldade(),
+                12*dificuldade.getDificuldade(),
+                6*dificuldade.getDificuldade(),
+                TipoMonstro.CAVALEIRO_DO_VAZIO);
     }
 
     //--------------------- Atributos escudos --------------------
