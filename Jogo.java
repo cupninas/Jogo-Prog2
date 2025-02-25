@@ -39,22 +39,27 @@ public class Jogo {
         int destreza = random.nextInt(50)+5;
         int velocidade = random.nextInt(50)+5;
         return switch (escolha) {
-            case 0 -> new AbominacaoDaCarne(dificuldade);
-            case 1 -> new CavaleiroDoVazio(dificuldade);
-            case 2 -> new ColossoDePedraViva(dificuldade);
-            case 3 -> new EspectroDaAgonia(dificuldade);
-            case 4 -> new HidraDeSangue(dificuldade);
+            case 0 -> new AbominacaoDaCarne(vida, ataque, defesa, destreza, velocidade, dificuldade);
+            case 1 -> new CavaleiroDoVazio(vida, ataque, defesa, destreza, velocidade, dificuldade);
+            case 2 -> new ColossoDePedraViva(vida, ataque, defesa, destreza, velocidade, dificuldade);
+            case 3 -> new EspectroDaAgonia(vida, ataque, defesa, destreza, velocidade, dificuldade);
+            case 4 -> new HidraDeSangue(vida, ataque, defesa, destreza, velocidade, dificuldade);
             default -> throw new Exception();
         };
     }
 
     private static Heroi gerarHeroiAleatorio() throws Exception {
         int escolha = random.nextInt(4);
+        int vida = random.nextInt(500)+100;
+        int ataque = random.nextInt(50)+5;
+        int defesa = random.nextInt(50)+5;
+        int destreza = random.nextInt(50)+5;
+        int velocidade = random.nextInt(50)+5;
         return switch (escolha) {
-            case 0 -> new Arqueiro();
-            case 1 -> new Guerreiro();
-            case 2 -> new Ladino();
-            case 3 -> new Mago();
+            case 0 -> new Arqueiro(vida, defesa, destreza, velocidade);
+            case 1 -> new Guerreiro(vida, defesa, destreza, velocidade);
+            case 2 -> new Ladino(vida, defesa, destreza, velocidade);
+            case 3 -> new Mago(vida, defesa, destreza, velocidade);
             default -> throw new Exception();
         };
     }
