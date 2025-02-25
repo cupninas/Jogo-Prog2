@@ -46,7 +46,7 @@ public class Arqueiro extends Heroi {
 
 		log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
 
-		int escolha = RANDOM.nextInt(4);
+		int escolha = RANDOM.nextInt(3);
 		switch (escolha) {
 			case 0 -> disparoComFlecha(monstro);
 			case 1 -> ataqueRapido(monstro);

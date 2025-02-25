@@ -60,11 +60,14 @@ public class Turno {
     }
 
     public void executarTurnos() throws Exception {
+        int nTurnos = 1;
         while (!herois.isEmpty() && !monstros.isEmpty()) {
+            log.addLog("------------------------------ INICIO DO TURNO "+nTurnos+" -------------------------------");
+            nTurnos++;
             Heroi heroi = escolherHeroiMenorVida(herois);
             Monstro monstro = escolherMonstroMenorVida(monstros);
 
-            monstro.sofrerDano(heroi.getAtaque());
+            heroi.realizarAcao(monstro);
 
             if (!monstro.estaVivo()) {
                 log.addLog(monstro.getNome() + " foi derrotado!");
@@ -72,8 +75,7 @@ public class Turno {
             }
 
             if (!monstros.isEmpty()) {
-                heroi.sofrerDano(monstro.getAtaque());
-                log.addLog(monstro.getNome() + " atacou " + heroi.getNome() + " causando " + monstro.getAtaque() + " de dano.");
+                monstro.realizarAcao(heroi);
 
                 if (!heroi.estaVivo()) {
                     log.addLog(heroi.getNome() + " foi derrotado!");
