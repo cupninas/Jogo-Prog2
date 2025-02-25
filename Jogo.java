@@ -15,15 +15,18 @@ public class Jogo {
     private Log log = new Log();
     private TipoDificuldade dificuldade;
 
-    public Jogo(TipoDificuldade dificuldade) {
+    public Jogo(TipoDificuldade dificuldade, int quantidadeHerois, int quantidadeMonstros) throws Exception {
         this.dificuldade = dificuldade;
+        this.herois = new ArrayList<>();
+        this.monstros = new ArrayList<>();
+        // Gerar múltiplos heróis usando o método gerarHeroiAleatorio()
+        for (int i = 0; i < quantidadeHerois; i++) this.herois.add(gerarHeroiAleatorio());
+        // Gerar múltiplos monstros usando o método gerarMonstroAleatorio()
+        for (int i = 0; i < quantidadeMonstros; i++) this.monstros.add(gerarMonstroAleatorio(dificuldade));
     }
 
-    public void iniciarJogo() throws Exception {
+    public void iniciarJogo(int quantidadeHerois, int quantidadeMonstros) throws Exception {
         log.addLog("Jogo iniciado com dificuldade: " + dificuldade);
-
-        gerarHeroiAleatorio();
-        gerarMonstroAleatorio();
         executarTurnos();
     }
 
