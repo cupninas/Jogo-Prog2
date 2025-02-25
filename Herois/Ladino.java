@@ -49,7 +49,7 @@ public class Ladino extends Heroi {
 		}
 
 		log.addLog(this.getNome() + " atacou " + monstro.getNome() + ".");
-
+		this.armaPrincipal = escolherArmaMaisForte(TipoArma.obterArmasParaLadino());
 		int escolha = RANDOM.nextInt(5);
 		switch (escolha) {
 			case 0 -> golpePreciso(monstro);
@@ -73,6 +73,15 @@ public class Ladino extends Heroi {
 	}
 
 	//--------------------- Ações de ataque --------------------
+
+	@Override
+	public TipoArma escolherArmaMaisForte(List<TipoArma> armas)  {
+		if (armas.isEmpty()) return null;
+
+		TipoArma armaForte = armas.getFirst();
+		for (TipoArma arma : armas) if (arma.getAtaque() > armaForte.getAtaque()) armaForte = arma;
+		return armaForte;
+	}
 
 	private void ataqueRapido(Monstro monstro) {
 		log.addLog(getNome() + " realiza um ataque rápido com " + armaPrincipal.getNome() + "!");
